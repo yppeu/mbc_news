@@ -715,6 +715,9 @@ nav{
     display: flex;
     flex-direction: row;
 }
+.news-rank-left-box{
+    margin-right: 30px;
+}
 .news-rank-title-box{
     display: flex;
     flex-direction: row;
@@ -727,16 +730,114 @@ nav{
 }
 .news-rank-card-left-list > a > img{
     width: 100%;
+    height: 154px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
+.news-rank-card-left-list{
+    margin-right: 50px;
+}
+.news-rank-title-box{
+    width: 100%;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 23px;
+    padding: 25px 0 13px;
+}
+.news-rank-title-box > h2{
+    width: 100%;
+    height: 37px;
+    letter-spacing: -1px;
+    font-size: 26px;
+    letter-spacing: -1px;
+}
+.news-rank-tab-list{
+    width: 100%;
+}
+.news-rank-tab-list > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.news-rank-tab-list > ul > li{
+    padding: 0 13px;
+    line-height: 54px;
+    font-size: 22px;
+    background: url(../img/nav_bar.jpg) right center no-repeat;
+    letter-spacing: -1px;
+}
+.news-rank-tab-list > ul > li:first-child{
+    font-weight: 700;
+}
+.news-rank-tab-list > ul > li:not(:first-child){
+    color: #707070;
+}
+.news-rank-card-right-list{
+    width: 100%;
+}
+.news-rank-card-left-list > a > p,
+.news-rank-card-right-list > a > p{
+    padding-bottom: 21px;
+    font-size: 21px;
+    letter-spacing: -1.2px;
+    font-weight: 400;
+}
+.news-rank-card-left-list > a > p > span,
+.news-rank-card-right-list > a > p > span{
+    color: #4664e6;
+    margin-right: 8px;
+    font-weight: 700;
+}
+.news-rank-card-left-list > a > p{
+    margin-top: 16px;
+    font-weight: 500;
+}
+.news-plus-title-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-plus-title-wrap,
+.news-plus-title-box,
+.news-plus-num-box,
+.news-plus-paging-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.news-plus-title-wrap{
+    justify-content: space-between;  
+    border-bottom: 1px solid #d7d7d7; 
+    margin-bottom: 23px;
+    padding: 40px 0 13px;
+}
+.news-plus-title-wrap > h2{
+    letter-spacing: -1px;
+    font-size: 26px;
+}
+.news-plus-box{
+    margin-bottom: 30px;
+    position: relative;
+}
+.news-plus-box > img{
+    width: 340px;
+    height: 120px;
+    border-radius: 5px;
+    background: linear-gradient(to top, #000, #000 3%, transparent);
+}
+.news-plus-box > p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 340px;
+    height: 120px;
+    box-sizing: border-box;
+}
 
 
 
