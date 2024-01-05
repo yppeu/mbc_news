@@ -550,18 +550,32 @@ nav{
     border-radius: 16px;
     box-shadow: 0 6px 4px -2px rgba(0,0,0,0.24);
     color: #fff;
+    box-sizing: border-box;
+}
+.tving-top-box{
+    display: flex;
+    flex-direction: column;
 }
 .tving-content-box > a > p{
     font-size: 40px;
     line-height: 1.2;
     color: #43d7ff;
+    box-sizing: border-box;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 .tving-free-more-box{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+.tving-free-more-box > a:last-child{
+    background-color: #43d7ff;
+    border-radius: 400px;
+    width: 56px;
+    height: 56px;
 }
 .tving-bottom-box{
     display: flex;
@@ -582,7 +596,10 @@ nav{
 .tving-info-box > a:first-child{
     margin-right: 2px;
 }
-
+.tving-Temu-box > a{
+    font-size: 13px;
+    color: rgba(0,0,0,0.4);
+}
 
 
 
