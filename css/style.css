@@ -602,6 +602,119 @@ nav{
 }
 
 
+/* section */
+.section4{
+    background: #f0f7ff;
+    padding-bottom: 30px;
+}
+.timeline-title-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d7d7d7;
+    padding: 25px 0 0;
+}
+.timeline-keyword-list{
+    display: flex;
+    flex-direction: row;
+}
+.timeline-keyword-list > h2{
+    height: 37px;
+    letter-spacing: -1px;
+    font-size: 26px;
+    margin-right: 100px;
+}
+.timeline-keyword-list > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.timeline-keyword-list > ul > li{
+    font-size: 20px;
+    font-weight: 500;
+}
+.timeline-keyword-list > ul > li:nth-child(1){
+    background: #4664e6;
+    color: #fff;
+    padding: 13px 26px;
+    position: relative;
+}
+.timeline-keyword-list > ul > li:nth-child(1)::after{
+    content: '';
+    width: 13px;
+    height: 7px;
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url(//image.imnews.imbc.com/page/include/images/arr_blue.png) no-repeat;
+}
+.timeline-keyword-list > ul > li:not(:last-child){
+    margin-right: 30px;
+}
+.timeline-content-wrap{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.timeline-card-box:not(:last-child){
+    margin-right: 30px;
+}
+.timeline-card-box > a > img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.timeline-card-box > a > p{
+    width: 220px;
+    height: 68px;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.time{
+    width: 220px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    margin-top: 30px;
+}
+.time::before{
+    width: 100%;
+    position: absolute;
+    content: '';
+    top: 16px;
+    left: 0;
+    border-top: 1px solid #d7d7d7;
+}
+.time::after{
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: url(../img/dot.png);
+    top: 8px;
+    left: 50%;
+    margin-left: -9px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
