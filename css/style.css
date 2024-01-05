@@ -707,6 +707,37 @@ nav{
 }
 
 
+/* section5 */
+.section5{
+    padding-bottom: 30px;
+}
+.news-rank-wrap{
+    display: flex;
+    flex-direction: row;
+}
+.news-rank-title-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-rank-content-box{
+    display: flex;
+    flex-direction: row;
+}
+.news-rank-card-left-list > a > img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
