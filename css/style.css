@@ -878,17 +878,52 @@ nav{
     letter-spacing: -1px;
 }
 .sports-content-left-box{
-    margin-right: 30px;
+    margin-right: 50px;
 }
-.sports-content-left-box > a > img{
+.sports-content-left-box > p{
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.sports-content-left-box > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sports-content-vod-box{
+    position: relative;
+}
+.sports-content-vod-box > a > img{
+    width: 274px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.sports-content-vod-box::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    width: 26px;
+    height: 26px;
+    z-index: 10;
+    background: url(../img/ico_player.png) no-repeat; 
+}
+.sports-content-right-box{
     width: 100%;
 }
-
+.sports-content-right-box > ul >li{
+    font-size: 20px;
+    letter-spacing: -1.6px;
+}
+.sports-content-right-box > ul >li:not(:last-child){
+    padding-bottom: 21px;
+}
 .sports-right-box{
     margin-top: 18px;
     padding-top: 55px;
     padding-left: 40px;
     border-left: 1px solid #eee;
+    font-weight: 500;
 }
 .sports-right-box > a > img{
     border-radius: 5px;
