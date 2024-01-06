@@ -740,7 +740,7 @@ nav{
 .news-rank-title-box{
     width: 100%;
     border-bottom: 1px solid #d7d7d7;
-    margin-bottom: 23px;
+    margin-bottom: 26px;
     padding: 25px 0 13px;
 }
 .news-rank-title-box > h2{
@@ -771,18 +771,27 @@ nav{
 .news-rank-tab-list > ul > li:not(:first-child){
     color: #707070;
 }
+.news-rank-tab-list > ul > li:last-child{
+    background: initial;
+}
 .news-rank-card-right-list{
     width: 100%;
 }
+.news-rank-card-right-list > a{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
 .news-rank-card-left-list > a > p,
-.news-rank-card-right-list > a > p{
+.news-rank-card-right-list > a > p,
+.news-rank-card-right-list > a > span{
     padding-bottom: 21px;
-    font-size: 21px;
-    letter-spacing: -1.2px;
+    font-size: 19px;
+    letter-spacing: -1.6px;
     font-weight: 400;
 }
 .news-rank-card-left-list > a > p > span,
-.news-rank-card-right-list > a > p > span{
+.news-rank-card-right-list > a > span{
     color: #4664e6;
     margin-right: 8px;
     font-weight: 700;
@@ -808,8 +817,8 @@ nav{
 .news-plus-title-wrap{
     justify-content: space-between;  
     border-bottom: 1px solid #d7d7d7; 
-    margin-bottom: 23px;
-    padding: 40px 0 13px;
+    margin-bottom: 26px;
+    padding: 33px 0 20px;
 }
 .news-plus-title-wrap > h2{
     letter-spacing: -1px;
@@ -823,14 +832,15 @@ nav{
     width: 340px;
     height: 120px;
     border-radius: 5px;
-    background: linear-gradient(to top, #000, #000 3%, transparent);
+    filter: brightness(46%);
+    /* margin-top: -38px; */
 }
 .news-plus-box > p{
     position: absolute;
     top: 0;
     left: 0;
     color: #fff;
-    padding: 20px;
+    padding: 20px 30px;
     font-size: 17px;
     font-weight: 600;
     line-height: 26px;
@@ -838,6 +848,21 @@ nav{
     height: 120px;
     box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
