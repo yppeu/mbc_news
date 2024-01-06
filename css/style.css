@@ -1074,6 +1074,28 @@ nav{
 }
 
 
+/* section8 */
+.section8{
+    background: #c6dffe;
+    margin-bottom: 20px;
+}
+.weekly-content-box{
+    display: flex;
+    flex-direction: row;
+}
+.weekly-img-box > img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
