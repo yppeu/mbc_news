@@ -1101,6 +1101,22 @@ nav{
     background: #fff;
     border-radius: 5px;
 }
+.weekly-card-box-title{
+    padding: 10px;
+}
+.weekly-card-box-title > p{
+    height: 48px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    border-bottom: 1px solid #e5e5e5;
+}
+.weekly-card-box-title > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .weekly-card-box:not(:last-child){
     margin-right: 30px;
 }
@@ -1110,7 +1126,8 @@ nav{
 .weekly-channel-box{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
 }
 .weekly-logo-img{
     margin-right: 10px;
@@ -1122,6 +1139,65 @@ nav{
     height: 100%;
     border-radius: 50%;
 }
+.weekly-channel-box{
+    padding: 3px 10px 8px;
+}
+.weekly-channel-box > a > span{
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+
+
+/* section9 */
+.section9{
+    padding-bottom: 30px;
+}
+.hot-news-title-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 23px
+}
+.hot-news-title-box > h2{
+    font-size: 26px;
+    padding: 0 0 13px;
+    letter-spacing: -1px;
+}
+.hot-news-dable-box > span{
+    color: #999;
+    font-size: 11px;
+    font-weight: 400;
+    padding-right: 3px;
+    margin-bottom: auto;
+}
+.hot-news-content-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.hot-news-card-box{
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.hot-news-card-text-box{
+    padding: 5px 2px;
+}
+.hot-news-card-text-box > p{
+    height: 40px;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+
+
+
+
+
+
+
 
 
 
