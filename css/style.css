@@ -1178,21 +1178,33 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
 }
 .hot-news-card-box{
-    padding-right: 25px;
-    padding-bottom: 25px;
+    /* margin-right: 25px; */
+}
+.hot-news-card-box > img{
+    width: 210px;
+    height: 113px;
+    border-radius: 5px;
+}
+.hot-news-card-box:nth-child(5),
+.hot-news-card-box:nth-child(10){
+    margin-right: 0;
 }
 .hot-news-card-text-box{
     padding: 5px 2px;
 }
 .hot-news-card-text-box > p{
-    height: 40px;
-    font-size: 18px;
+    width: 90%;
+    font-size: 17px;
     letter-spacing: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
 }
-
-
 
 
 
