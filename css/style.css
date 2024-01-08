@@ -1471,14 +1471,44 @@ nav{
         width: 94%;
         margin: auto;
     }
+    .news-bottom-vod-card-box > p{
+        font-size: 18px;
+    }
+    .tving-wrap{
+        padding: 16px 22px;
+    }
+    .tving-content-box > a > p{
+        font-size: 30px;
+    }
+    .tving-free-more-box > a{
+        font-size: 14px;
+    }
     .timeline-content-wrap{
         flex-wrap: wrap;
     }
     .timeline-card-box > a > img{
         width: 200px;
     }
+    .tving-free-more-box > a:first-child{
+        display: none;
+    }
+    .tving-free-more-box > a:last-child{
+        width: 40px;
+        height: 40px;
+    }
     .timeline-card-box:not(:last-child){
-        margin-bottom: 30px;
+        margin-bottom: 28px;
+    }
+    .timeline-card-box > a > p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .timeline-card-box:not(:last-child){
+        margin-right: 0px;
+    }
+    .time{
+        font-size: 16px;
+        margin-top: 20px;
     }
     .news-rank-card-left-list > a > p,
     .news-rank-card-right-list > a > p,
@@ -1486,6 +1516,11 @@ nav{
     .sports-content-right-box > ul >li,
     .enter-content-right-box > ul >li{
         font-size: 17px;
+    }
+    .sports-content-right-box > ul >li:not(:last-child),
+    .news-rank-card-right-list > a > p,
+    .enter-content-right-box > ul >li:not(:last-child){
+        padding-bottom: 16px;
     }
     .sports-content-left-box,
     .enter-content-left-box,
@@ -1501,6 +1536,13 @@ nav{
     .weekly-card-box:not(:last-child){
         margin-right: 20px;
     }
+    .weekly-card-box-title > p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .hot-news-card-text-box > p{
+        font-size: 16px;
+    }
     .hot-news-card-box > img{
         width: 100%;
     }
@@ -1508,16 +1550,85 @@ nav{
         margin-right: 438px;
     }
     .footer-title-box > ul > li{
-        padding: 16px 35px;
+        padding: 16px 46px;
+        font-size: 19px;
     }
     .footer-list-box{
-        width: 200px;
-        padding: 10px 0 0 35px;
+        width: 197px;
+        padding: 10px 0 10px 35px;
     }
     .footer-list-box > li{
         font-size: 16px;
     }
     .container-wrap{
-        padding: 30px 30px 60px;
+        padding: 30px 60px 60px;
+    }
+    .footer-copyright-text-box > p{
+        font-size: 16px;
+        line-height: 33px;
+    }
+}
+@media screen and (max-width:992px){
+    .nav-title-box > h1{
+        margin-right: 450px;
+    }
+    .category-list{
+        margin-right: 0;
+    }
+    .category-list > li{
+        font-size: 16.5px;
+    }
+    .hashtag > a{
+        display: none;
+    }
+    .news-top-wrap,
+    .news-bottom-wrap,
+    .ai-pick-desk-img-box > img{
+        width: 100%;
+    }
+    .news-top-left-text-box{
+        border-radius: 5px;
+    }
+    .news-bottom-vod-card-wrap{
+        margin-bottom: 30px;
+    }
+    .ai-pick-card-box > a > img{
+        width: 100%;
+    }
+    .ai-pick-card-box > a > p,
+    .mbig-pick-card-box > a > p{
+        font-size: 16px;
+    }
+    .tving-content-box > a > p{
+        font-size: 24px;
+    }
+    .news-plus-wrap,
+    .sports-right-box,
+    .enter-right-box{
+        display: none;
+    }
+    .sports-content-left-box,
+    .enter-content-left-box{
+        margin-right: 50px;
+    }
+    .weekly-card-box:nth-child(3),
+    .weekly-card-box:nth-child(4){
+        display: none;
+    }
+    .hot-news-content-wrap{
+        justify-content: flex-start;
+    }
+    .hot-news-card-box > img{
+        width: 210px;
+    }
+    .footer-title-wrap{
+        display: none;
+    }
+    .footer-copyright-wrap > .container-wrap{
+        flex-direction: column;
+    }
+    .footer-info-sns-box{
+        margin-left: auto;
+        margin-top: 30px;
     }
 }
