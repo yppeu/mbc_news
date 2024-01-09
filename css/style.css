@@ -17,7 +17,8 @@ body{
 /* 모바일 */
 .m-gnb,
 .m-nav,
-.m-headline-onair{
+.m-headline-onair,
+.m-ad{
     display: none;
 }
 header{
@@ -1818,7 +1819,7 @@ nav{
         display: block;
         padding: 0 18px;
         padding-top: 8px;
-        padding-bottom: 4px
+        padding-bottom: 8px
     }
     .m-headline-onair > .wrapper{
         width: 100%;
@@ -1853,6 +1854,11 @@ nav{
         border-radius: 3px;
         background: #3d3d3d;
     }
+    .news-top-box{
+        border: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
     .news-top-left-text-box{
         width: 100%;
         padding-bottom: 0;
@@ -1867,12 +1873,20 @@ nav{
     .news-top-left-text-box > p{
         display: none;
     }
+    .news-bottom-left-box{
+        padding: 0 18px;
+    }
     .news-bottom-vod-card-wrap{
         margin-bottom: 0;
     }
-    .news-bottom-vod-card-box:nth-child(3){
+    .news-bottom-vod-card-box > p{
+        font-size: 20px;
+    }
+    .news-bottom-vod-card-box:nth-child(3),
+    .news-bottom-vod-card-box:nth-child(2){
         margin-right: 0;
     }
+    .news-bottom-vod-card-box:nth-child(3),
     .news-bottom-vod-card-box:last-child,
     .kakao-banner-box{
         display: none;
@@ -1886,6 +1900,25 @@ nav{
     .section8 > .container-wrap, 
     .section9 > .container-wrap{
         padding: 30px 0 0;
+    }
+    .section2{
+        padding-bottom: 0;
+    }
+    .section2 > .container-wrap{
+        padding: 0;
+    }
+    .m-ad{
+        display: block;
+    }
+    .m-ad > .ad-txt > a > span > img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .section4{
+        display: none;
+    }
+    .section5 > .container-wrap{
+        padding-top: 0;
     }
     .ai-pick-left-box,
     .mbig-left-box{
