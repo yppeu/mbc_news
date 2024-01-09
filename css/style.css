@@ -1891,6 +1891,15 @@ nav{
     .kakao-banner-box{
         display: none;
     }
+    .ai-pick-title-box > h3,
+    .mbig-title-box > h2,
+    .news-rank-title-box > h2,
+    .sports-title-box > h2,
+    .enter-title-box > h2,
+    .weekly-title-box > h2,
+    .hot-news-title-box > h2{
+        font-size: 20px;
+    }
     .section2 > .container-wrap, 
     .section3 > .container-wrap, 
     .section4 > .container-wrap, 
@@ -1906,6 +1915,9 @@ nav{
     }
     .section2 > .container-wrap{
         padding: 0;
+    }
+    .section3 > .container-wrap{
+        width: 100%;
     }
     .m-ad{
         display: block;
