@@ -1748,16 +1748,15 @@ nav{
     }
 }
 @media screen and (max-width:568px){
-    .pc-gnb{
-        display: none;
-    }
-    .nav-title-box{
+    .pc-gnb,
+    .nav-title-box,
+    .enter,
+    .category-more-box,
+    .hashtag{
         display: none;
     }
     header{
         background-color: #000041;
-        padding-bottom: 10px;
-        padding: 0 10px;
         box-sizing: border-box;
     }
     .m-gnb{
@@ -1778,8 +1777,25 @@ nav{
     .report > img{
         width: 40px;
     }
+    nav{
+        padding: 6px 0;
+    }
     .m-nav{
         display: block;
+        width: 100%;
+        background: #e3e3e3;
+    }
+    .category-list{
+        justify-content: center;
+    }
+    .category-list > li:first-child{
+        font-weight: 600;
+    }
+    .category-list > li:not(:last-child){
+        margin-right: 13px;
+    }
+    .category-list > li:not(:last-child)::after{
+        display: none;
     }
     .section1{
         margin-bottom: 0;
