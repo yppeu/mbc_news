@@ -1585,6 +1585,11 @@ nav{
     .news-top-wrap,
     .news-bottom-wrap,
     .mbig-wrap,
+    .timeline-wrap,
+    .news-rank-wrap,
+    .sports-content-wrap,
+    .enter-content-wrap,
+    .weekly-wrap,
     .ai-pick-desk-img-box > img{
         width: 100%;
     }
@@ -1605,8 +1610,15 @@ nav{
     .mbig-pick-card-box > a > p{
         font-size: 16px;
     }
-    .tving-content-box > a > p{
-        font-size: 24px;
+    .timeline-card-box:not(:last-child){
+        margin-right: 40px;
+    }
+    .timeline-content-wrap{
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .timeline-card-box{
+        margin-bottom: 60px;
     }
     .news-plus-wrap,
     .sports-right-box,
@@ -1621,8 +1633,15 @@ nav{
     .weekly-card-box:nth-child(4){
         display: none;
     }
+    .sports-content-left-box,
+    .enter-content-left-box{
+        margin-right: 60px;
+    }
     .hot-news-content-wrap{
         justify-content: flex-start;
+    }
+    .hot-news-card-box{
+        margin-right: 30px !important;
     }
     .hot-news-card-box > img{
         width: 210px;
