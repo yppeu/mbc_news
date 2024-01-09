@@ -1,859 +1,1244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MBC 뉴스</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- 폰트 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- header -->
     <header>
-        <div class="nav-title-box">
-            <h1 class="pc-gnb"><a href="#"><img src="./img/logo.png" alt="MBC 뉴스 로고 이미지"></a></h1>
-            <div class="login-wrap pc-gnb">
-                <ul>
-                    <li><a href="#">제보</a></li>
-                    <li><a href="#">로그인</a></li>
-                    <li><a href="#"><img src="./img/search.png" alt="검색 아이콘 이미지"></a></li>
-                    <li><a href="#"><img src="./img/bookmark.png" alt="북마크 아이콘 이미지"></a></li>
-                    <li><a href="#"><img src="./img/imbc.png" alt="MBC 아이콘 이미지"></a></li>
-                </ul>
-            </div>
+      <div class="nav-title-box">
+        <h1 class="pc-gnb">
+          <a href="#"
+            ><img src="./img/logo.png" alt="MBC 뉴스 로고 이미지"
+          /></a>
+        </h1>
+        <div class="login-wrap pc-gnb">
+          <ul>
+            <li><a href="#">제보</a></li>
+            <li><a href="#">로그인</a></li>
+            <li>
+              <a href="#"
+                ><img src="./img/search.png" alt="검색 아이콘 이미지"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./img/bookmark.png" alt="북마크 아이콘 이미지"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./img/imbc.png" alt="MBC 아이콘 이미지"
+              /></a>
+            </li>
+          </ul>
         </div>
-        <div class="m-gnb">
-            <button type="button" class="txt_hide btn_gnb" title="전체 메뉴 펼치기">
-                <img src="./img/btn_gnb.png" alt="">
-            </button>
-            <button type="button" class="txt_hide btn_close" title="전체 메뉴 닫기">
-                <span class="line"></span>
-                <span class="line center"></span>
-                <span class="line"></span>
-            </button>
-            <h1 class="logo">
-                <a href="#"><img src="./img/logo_mbcnews.png" alt="MBC 뉴스 로고 이미지"></a>
-            </h1>
-            <a href="#" class="report"><img src="./img/btn_report.png" alt="MBC 제보"></a>
+      </div>
+      <div class="m-gnb">
+        <button type="button" class="txt_hide btn_gnb" title="전체 메뉴 펼치기">
+          <img src="./img/btn_gnb.png" alt="" />
+        </button>
+        <button type="button" class="txt_hide btn_close" title="전체 메뉴 닫기">
+          <span class="line"></span>
+          <span class="line center"></span>
+          <span class="line"></span>
+        </button>
+        <h1 class="logo">
+          <a href="#"
+            ><img src="./img/logo_mbcnews.png" alt="MBC 뉴스 로고 이미지"
+          /></a>
+        </h1>
+        <a href="#" class="report"
+          ><img src="./img/btn_report.png" alt="MBC 제보"
+        /></a>
+      </div>
+      <nav>
+        <div class="category-wrap">
+          <ul class="category-list">
+            <li><a href="#">홈</a></li>
+            <li><a href="#">뉴스데스크</a></li>
+            <li><a href="#">엠빅뉴스</a></li>
+            <li><a href="#">14F</a></li>
+            <li><a href="#">심층</a></li>
+            <li><a href="#">정치</a></li>
+            <li><a href="#">사회</a></li>
+            <li><a href="#">국제</a></li>
+            <li><a href="#">경제</a></li>
+            <li><a href="#">스포츠</a></li>
+            <li><a href="#">iMBC 연예</a></li>
+            <li class="category-more-box">
+              <a href="#"
+                >더보기<img src="./img/arr.png" alt="화살표 아이콘 이미지" />
+              </a>
+            </li>
+            <li class="hashtag">
+              <a href="#">#MBC뉴스</a>
+            </li>
+          </ul>
         </div>
-        <nav>
-            <div class="category-wrap">
-                <ul class="category-list">
-                    <li><a href="#">홈</a></li>
-                    <li><a href="#">뉴스데스크</a></li>
-                    <li><a href="#">엠빅뉴스</a></li>
-                    <li><a href="#">14F</a></li>
-                    <li><a href="#">심층</a></li>
-                    <li><a href="#">정치</a></li>
-                    <li><a href="#">사회</a></li>
-                    <li><a href="#">국제</a></li>
-                    <li><a href="#">경제</a></li>
-                    <li><a href="#">스포츠</a></li>
-                    <li><a href="#">iMBC 연예</a></li>
-                    <li class="category-more-box">
-                        <a href="#">더보기<img src="./img/arr.png" alt="화살표 아이콘 이미지">
-                        </a>
-                    </li>
-                    <li class="hashtag">
-                        <a href="#">#MBC뉴스</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="sns-wrap">
-                <a href="#">
-                    <img src="./img/youtube.png" alt="youtube 아이콘 이미지">
-                    <img src="./img/line.jpg" alt="라인 이미지">
-                </a>
-                <a href="#">
-                    <img src="./img/facebook.png" alt="facebook 아이콘 이미지">
-                    <img src="./img/line.jpg" alt="라인 이미지">
-                </a>
-                <a href="#">
-                    <img src="./img/twitter.png" alt="twitter 아이콘 이미지">
-                </a>
-            </div>
-        </nav>
-        <nav class="m-nav">
-            <div class="category-wrap">
-                <ul class="category-list">
-                    <li><a href="#">홈</a></li>
-                    <li><a href="#">뉴스데스크</a></li>
-                    <li><a href="#">엠빅뉴스</a></li>
-                    <li><a href="#">14F</a></li>
-                    <li><a href="#">심층</a></li>
-                    <li><a href="#">정치</a></li>
-                    <li><a href="#">사회</a></li>
-                    <li><a href="#">국제</a></li>
-                    <li><a href="#">경제</a></li>
-                    <li><a href="#">스포츠</a></li>
-                    <li class=""><a href="#">iMBC 연예</a></li>
-                    <li class="category-more-box">
-                        <a href="#">더보기<img src="./img/arr.png" alt="화살표 아이콘 이미지">
-                        </a>
-                    </li>
-                    <li class="hashtag">
-                        <a href="#">#MBC뉴스</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="sns-wrap">
-                <a href="#">
-                    <img src="./img/youtube.png" alt="youtube 아이콘 이미지">
-                    <img src="./img/line.jpg" alt="라인 이미지">
-                </a>
-                <a href="#">
-                    <img src="./img/facebook.png" alt="facebook 아이콘 이미지">
-                    <img src="./img/line.jpg" alt="라인 이미지">
-                </a>
-                <a href="#">
-                    <img src="./img/twitter.png" alt="twitter 아이콘 이미지">
-                </a>
-            </div>
-        </nav>
+        <div class="sns-wrap">
+          <a href="#">
+            <img src="./img/youtube.png" alt="youtube 아이콘 이미지" />
+            <img src="./img/line.jpg" alt="라인 이미지" />
+          </a>
+          <a href="#">
+            <img src="./img/facebook.png" alt="facebook 아이콘 이미지" />
+            <img src="./img/line.jpg" alt="라인 이미지" />
+          </a>
+          <a href="#">
+            <img src="./img/twitter.png" alt="twitter 아이콘 이미지" />
+          </a>
+        </div>
+      </nav>
+      <nav class="m-nav">
+        <div class="category-wrap">
+          <ul class="category-list">
+            <li><a href="#">홈</a></li>
+            <li><a href="#">뉴스데스크</a></li>
+            <li><a href="#">엠빅뉴스</a></li>
+            <li><a href="#">14F</a></li>
+            <li><a href="#">심층</a></li>
+            <li><a href="#">정치</a></li>
+            <li><a href="#">사회</a></li>
+            <li><a href="#">국제</a></li>
+            <li><a href="#">경제</a></li>
+            <li><a href="#">스포츠</a></li>
+            <li class=""><a href="#">iMBC 연예</a></li>
+            <li class="category-more-box">
+              <a href="#"
+                >더보기<img src="./img/arr.png" alt="화살표 아이콘 이미지" />
+              </a>
+            </li>
+            <li class="hashtag">
+              <a href="#">#MBC뉴스</a>
+            </li>
+          </ul>
+        </div>
+        <div class="sns-wrap">
+          <a href="#">
+            <img src="./img/youtube.png" alt="youtube 아이콘 이미지" />
+            <img src="./img/line.jpg" alt="라인 이미지" />
+          </a>
+          <a href="#">
+            <img src="./img/facebook.png" alt="facebook 아이콘 이미지" />
+            <img src="./img/line.jpg" alt="라인 이미지" />
+          </a>
+          <a href="#">
+            <img src="./img/twitter.png" alt="twitter 아이콘 이미지" />
+          </a>
+        </div>
+      </nav>
     </header>
     <main>
-        <!-- section1 -->
-        <section class="section1">
-            <div class="container-wrap">
-                <div class="news-top-wrap">
-                    <div class="news-top-box">
-                        <div class="news-top-left-box">
-                            <div class="news-top-left-img-box">
-                                <img src="./img/news-top-img.jpg" alt="">
-                            </div>
-                            <div class="news-top-left-text-box">
-                                <h2>함박눈에 서울시 비상근무 1단계‥추돌사고로 곳곳 부분통제</h2>
-                                <p>오늘 오후 1시를 기점으로 서남권을 제외한 서울 전역에 대설주의보가 발효된 가운데, 서울시가 제설 비상근무 1단계를 발령해 대응 중이라고 밝혔습니다. 대설주의보는 24시간 동안 눈이 5㎝ 이상 쌓일 것으로 예측될 때 내려집니다. 시는 어젯밤 11시 제설 비상근무 1단계...</p>
-                            </div>
-                        </div>
-                        <div class="m-headline-onair">
-                            <div class="wrapper">
-                                <a href="#">
-                                    <span class="whatnext">Next</span>
-                                    <span class="program ellipsis">뉴스투데이</span>
-                                    <span class="live">LIVE</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="news-top-right-wrap">
-                            <h2>추천 주요뉴스</h2>
-                            <div class="news-top-right-text-box">
-                                <ul>
-                                    <li><a href="#">국민의힘 "민주당, '김건희 특검법' 스스로 거둬야"</a></li>
-                                    <li><a href="#">'전격 회동' 이재명·이낙연 1시간 면담‥이견 못 좁혀</a></li>
-                                    <li><a href="#">'나이지리아서 납치' 한국인 2명, 17일 만에 석방</a></li>
-                                    <li><a href="#">경찰, 서이초 사건 의혹 게시글 작성 현직교사 소환조사 </a></li>
-                                    <li><a href="#">카타르 "하마스, 휴전협상 재개에 원칙적 합의"</a></li>
-                                    <li><a href="#">"日후지산 대규모 폭발하면 화산재 바다에 버린다"</a></li>
-                                    <li><a href="#">주유소 기름값 12주째 하락‥경유 일간 1천400원대 진입</a></li>
-                                    <li><a href="#">김홍일 임명 강행‥방통위 또 '2인 체제'로</a></li>
-                                    <li><a href="#">창원서 승용차·버스 충돌‥1명 사망</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+      <!-- section1 -->
+      <section class="section1">
+        <div class="container-wrap">
+          <div class="news-top-wrap">
+            <div class="news-top-box">
+              <div class="news-top-left-box">
+                <div class="news-top-left-img-box">
+                  <img src="./img/news-top-img.jpg" alt="" />
                 </div>
-                <div class="news-bottom-wrap">
-                    <div class="news-bottom-left-box">
-                        <div class="news-bottom-vod-card-wrap">
-                            <div class="news-bottom-vod-card-box">
-                                <a href="#"><img src="./img/ico_vod1.jpg" alt="vod 소배너 썸네일"></a>
-                                <p>[현장36.5] 건강을 지키는 등대, '공공 야간약국'</p>
-                            </div>
-                            <div class="news-bottom-vod-card-box">
-                                <a href="#"><img src="./img/ico_vod2.jpg" alt="vod 소배너 썸네일"></a>
-                                <p>'골 결정력 1위' 황희찬 '오늘 밤 출격 가능'</p>
-                            </div>
-                            <div class="news-bottom-vod-card-box">
-                                <a href="#"><img src="./img/ico_vod3.jpg" alt="vod 소배너 썸네일"></a>
-                                <p>'비신사적 행위' 허리뼈 골절‥'공중에서 밀었다'</p>
-                            </div>
-                            <div class="news-bottom-vod-card-box">
-                                <a href="#"><img src="./img/ico_vod4.jpg" alt="vod 소배너 썸네일"></a>
-                                <p>나이지리아서 납치됐던 국민 2명, 무사히 귀국길에</p>
-                            </div>
-                        </div>
-                        <div class="kakao-banner-box">
-                            <img src="./img/kakao-banner.png" alt="카카오톡 소배너 이미지">
-                        </div>
-                    </div>
-                    <div class="news-bottom-right-box">
-                        <div class="news-bottom-contents-wrap">
-                            <div class="news-bottom-contents-box">
-                                <div class="news-bottom-title-box">
-                                    <h3>추천 콘텐츠</h3>
-                                    <div class="news-bottom-title-dable-box">
-                                        <p class="by">by</p>
-                                        <img src="./img/dable.png" alt="dable">
-                                    </div>
-                                </div>
-                                <div class="news-bottom-contents-pagings-wrap">
-                                    <span><i class="bar"></i></span>
-                                    <span><i class="bar"></i></span> 
-                                    <span><i class="bar"></i></span>
-                                    <span><i class="bar"></i></span>
-                                </div>
-                                <div class="news-bottom-contents-img-wrap">
-                                    <div class="news-bottom-contents-img-box"></div>
-                                    <div class="news-bottom-contents-play-wrap">
-                                        <div class="news-bottom-contents-more-wrap">
-                                            <div class="news-bottom-contents-play-icon">
-                                                <a href="#"><img src="./img/prev-icon.png" alt="왼쪽 재생 버튼 이미지"></a>
-                                                <a href="#"><img src="./img/pause-icon.png" alt="현재 재생 버튼 이미지"></a>
-                                                <a href="#"><img src="./img/next-icon.png" alt="다음 재생 버튼 이미지"></a>
-                                            </div>
-                                            <div class="news-bottom-contents-more-box">
-                                                <button>read more</button>
-                                            </div>
-                                        </div>
-                                        <div class="news-bottom-contents-text-box">
-                                            <p class="name">[AD] 52세 이상의 남자들을 위한 현실적인 게임</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="naver-banner-box">
-                                    <img src="./img/naver-banner.jpg" alt="네이버 소배너 이미지">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="news-top-left-text-box">
+                  <h2>
+                    함박눈에 서울시 비상근무 1단계‥추돌사고로 곳곳 부분통제
+                  </h2>
+                  <p>
+                    오늘 오후 1시를 기점으로 서남권을 제외한 서울 전역에
+                    대설주의보가 발효된 가운데, 서울시가 제설 비상근무 1단계를
+                    발령해 대응 중이라고 밝혔습니다. 대설주의보는 24시간 동안
+                    눈이 5㎝ 이상 쌓일 것으로 예측될 때 내려집니다. 시는 어젯밤
+                    11시 제설 비상근무 1단계...
+                  </p>
                 </div>
+              </div>
+              <div class="m-headline-onair">
+                <div class="wrapper">
+                  <a href="#">
+                    <span class="whatnext">Next</span>
+                    <span class="program ellipsis">뉴스투데이</span>
+                    <span class="live">LIVE</span>
+                  </a>
+                </div>
+              </div>
+              <div class="news-top-right-wrap">
+                <h2>추천 주요뉴스</h2>
+                <div class="news-top-right-text-box">
+                  <ul>
+                    <li>
+                      <a href="#"
+                        >국민의힘 "민주당, '김건희 특검법' 스스로 거둬야"</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >'전격 회동' 이재명·이낙연 1시간 면담‥이견 못 좁혀</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >'나이지리아서 납치' 한국인 2명, 17일 만에 석방</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >경찰, 서이초 사건 의혹 게시글 작성 현직교사 소환조사
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >카타르 "하마스, 휴전협상 재개에 원칙적 합의"</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >"日후지산 대규모 폭발하면 화산재 바다에 버린다"</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >주유소 기름값 12주째 하락‥경유 일간 1천400원대 진입</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#">김홍일 임명 강행‥방통위 또 '2인 체제'로</a>
+                    </li>
+                    <li><a href="#">창원서 승용차·버스 충돌‥1명 사망</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </section>
-
-        <!-- section2 -->
-        <section class="section2">
-            <div class="container-wrap">
-                <div class="ai-pick-wrap">
-                    <div class="ai-pick-left-box">
-                        <div class="ai-pick-title-box">
-                            <h3>AI Pick</h3>
-                            <div class="ai-pick-num-wrap">
-                                <div class="ai-pick-num-box">
-                                    <span>1</span>
-                                    <span>/</span>
-                                    <span>4</span>
-                                </div>
-                                <div class="ai-pick-paging-box">
-                                    <a href="#"><img src="./img/btn_left.png" alt=""></a>
-                                    <a href="#"><img src="./img/btn_right.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ai-pick-card-wrap">
-                            <div class="ai-pick-card-box">
-                                <a href="#">
-                                    <img src="./img/ai-pick-vod1.jpg" alt="ai-pick 뉴스 썸네일">
-                                    <p>우체국 금융 또 장애‥"원인 파악 중"</p>
-                                </a>
-                            </div>
-                            <div class="ai-pick-card-box">
-                                <a href="#">
-                                    <img src="./img/ai-pick-vod2.jpg" alt="ai-pick 뉴스 썸네일">
-                                    <p>트럼프 "바이든은 사기꾼이자 악당‥민주당 후보 안될 것"</p>
-                                </a>
-                            </div>
-                            <div class="ai-pick-card-box">
-                                <a href="#">
-                                    <img src="./img/ai-pick-vod3.jpg" alt="ai-pick 뉴스 썸네일">
-                                    <p>반격 나선 우크라‥러 "집속탄 발사" 주장</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ai-pick-right-box">
-                        <div class="ai-pick-desk-title-box">
-                            <div class="ai-pick-desk-box">
-                                <div class="bg">Next</div>
-                            </div>
-                            <p>뉴스데스크</p>
-                        </div>
-                        <div class="ai-pick-desk-img-box">
-                            <img src="./img/news-desk.png" alt="">
-                        </div>
-                    </div>
+          </div>
+          <div class="news-bottom-wrap">
+            <div class="news-bottom-left-box">
+              <div class="news-bottom-vod-card-wrap">
+                <div class="news-bottom-vod-card-box">
+                  <a href="#"
+                    ><img src="./img/ico_vod1.jpg" alt="vod 소배너 썸네일"
+                  /></a>
+                  <p>[현장36.5] 건강을 지키는 등대, '공공 야간약국'</p>
                 </div>
-                <div class="m-big-wrap">
-
+                <div class="news-bottom-vod-card-box">
+                  <a href="#"
+                    ><img src="./img/ico_vod2.jpg" alt="vod 소배너 썸네일"
+                  /></a>
+                  <p>'골 결정력 1위' 황희찬 '오늘 밤 출격 가능'</p>
                 </div>
+                <div class="news-bottom-vod-card-box">
+                  <a href="#"
+                    ><img src="./img/ico_vod3.jpg" alt="vod 소배너 썸네일"
+                  /></a>
+                  <p>'비신사적 행위' 허리뼈 골절‥'공중에서 밀었다'</p>
+                </div>
+                <div class="news-bottom-vod-card-box">
+                  <a href="#"
+                    ><img src="./img/ico_vod4.jpg" alt="vod 소배너 썸네일"
+                  /></a>
+                  <p>나이지리아서 납치됐던 국민 2명, 무사히 귀국길에</p>
+                </div>
+              </div>
+              <div class="kakao-banner-box">
+                <img
+                  src="./img/kakao-banner.png"
+                  alt="카카오톡 소배너 이미지"
+                />
+              </div>
             </div>
-        </section>
-
-        <!-- section3 -->
-        <section class="section3">
-            <div class="container-wrap">
-                <div class="m-ad">
-                    <div class="ad-txt">    
-                        <a href="#" target="_blank">     
-                            <span>
-                                <img src="./img/m-ad.png" alt="MBC 뉴스는 24시간 여러분의 제보를 기다립니다.">
-                            </span> 
-                        </a>
+            <div class="news-bottom-right-box">
+              <div class="news-bottom-contents-wrap">
+                <div class="news-bottom-contents-box">
+                  <div class="news-bottom-title-box">
+                    <h3>추천 콘텐츠</h3>
+                    <div class="news-bottom-title-dable-box">
+                      <p class="by">by</p>
+                      <img src="./img/dable.png" alt="dable" />
                     </div>
-                </div>
-                <div class="mbig-wrap">
-                    <div class="mbig-content-wrap">
-                        <div class="mbig-left-box">
-                            <div class="mbig-title-box">
-                                <h2>엠빅 X 14F</h2>
-                                <div class="mbig-pick-num-wrap">
-                                    <div class="mbig-pick-num-box">
-                                        <span>1</span>
-                                        <span>/</span>
-                                        <span>4</span>
-                                    </div>
-                                    <div class="mbig-pick-paging-box">
-                                        <a href="#"><img src="./img/btn_left.png" alt=""></a>
-                                        <a href="#"><img src="./img/btn_right.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mbig-pick-card-wrap">
-                                <div class="mbig-pick-card-box">
-                                    <a href="#">
-                                        <img src="./img/mbig-pick-vod1.png" alt="ai-pick 뉴스 썸네일">
-                                        <p>우체국 금융 또 장애‥"원인 파악 중"</p>
-                                    </a>
-                                </div>
-                                <div class="mbig-pick-card-box">
-                                    <a href="#">
-                                        <img src="./img/mbig-pick-vod2.jpg" alt="ai-pick 뉴스 썸네일">
-                                        <p>트럼프 "바이든은 사기꾼이자 악당‥민주당 후보 안될 것"</p>
-                                    </a>
-                                </div>
-                                <div class="mbig-pick-card-box">
-                                    <a href="#">
-                                        <img src="./img/mbig-pick-vod3.jpg" alt="ai-pick 뉴스 썸네일">
-                                        <p>반격 나선 우크라‥러 "집속탄 발사" 주장</p>
-                                    </a>
-                                </div>
-                                <div class="mbig-pick-card-box">
-                                    <a href="#">
-                                        <img src="./img/mbig-pick-vod3.jpg" alt="ai-pick 뉴스 썸네일">
-                                        <p>반격 나선 우크라‥러 "집속탄 발사" 주장</p>
-                                    </a>
-                                </div>
-                            </div>
+                  </div>
+                  <div class="news-bottom-contents-pagings-wrap">
+                    <span><i class="bar"></i></span>
+                    <span><i class="bar"></i></span>
+                    <span><i class="bar"></i></span>
+                    <span><i class="bar"></i></span>
+                  </div>
+                  <div class="news-bottom-contents-img-wrap">
+                    <div class="news-bottom-contents-img-box"></div>
+                    <div class="news-bottom-contents-play-wrap">
+                      <div class="news-bottom-contents-more-wrap">
+                        <div class="news-bottom-contents-play-icon">
+                          <a href="#"
+                            ><img
+                              src="./img/prev-icon.png"
+                              alt="왼쪽 재생 버튼 이미지"
+                          /></a>
+                          <a href="#"
+                            ><img
+                              src="./img/pause-icon.png"
+                              alt="현재 재생 버튼 이미지"
+                          /></a>
+                          <a href="#"
+                            ><img
+                              src="./img/next-icon.png"
+                              alt="다음 재생 버튼 이미지"
+                          /></a>
                         </div>
-                        <div class="mbig-right-box">
-                            <div class="tving-wrap">
-                                <div class="tving-top-box">
-                                    <div class="tving-content-box">
-                                        <a href="#">
-                                            <p>블랙프라이데이<br>90%할인</p>
-                                        </a>
-                                    </div>
-                                    <div class="tving-free-more-box">
-                                        <a href="#">
-                                            당신이 찾는 모든 상품을 TEMU에서 90%<br>
-                                            할인받은 초저가로 구매하세요 (ft.무료배송)
-                                        </a>
-                                        <a href="#"><img src="./img/tving-arr.svg" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tving-bottom-box">
-                                <div class="tving-info-box">
-                                    <a href="#"><img src="./img/x-mark.png" alt=""></a>
-                                    <a href="#"><img src="./img/info.png" alt=""></a>
-                                </div>
-                                <div class="tving-Temu-box">
-                                    <a href="#">Temu</a>
-                                </div>
-                            </div>
+                        <div class="news-bottom-contents-more-box">
+                          <button>read more</button>
                         </div>
+                      </div>
+                      <div class="news-bottom-contents-text-box">
+                        <p class="name">
+                          [AD] 52세 이상의 남자들을 위한 현실적인 게임
+                        </p>
+                      </div>
                     </div>
+                  </div>
+                  <div class="naver-banner-box">
+                    <img
+                      src="./img/naver-banner.jpg"
+                      alt="네이버 소배너 이미지"
+                    />
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- section4 -->
-        <section class="section4">
-            <div class="container-wrap">
-                <div class="timeline-wrap">
-                    <div class="timeline-title-box">
-                        <div class="timeline-keyword-list">
-                            <h2>타임라인</h2>
-                            <ul>
-                                <li><a href="#">한반도 이슈</a></li>
-                                <li><a href="#">한일 관계</a></li>
-                                <li><a href="#">성범죄</a></li>
-                                <li><a href="#">아동학대</a></li>
-                            </ul>
-                        </div>
-                        <div class="timeline-bore-box">
-                            <a href="#"><img src="./img/btn_more.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="timeline-content-wrap">
-                        <div class="timeline-card-box">
-                            <a href="#">
-                                <img src="./img/timeline-card-img1.jpg" alt="">
-                                <p>"북, 러에 탄도미사일 제공‥이미 우크라에 사용"</p>
-                            </a>
-                            <div class="time">1시간전</div>
-                        </div>
-                        <div class="timeline-card-box">
-                            <a href="#">
-                                <img src="./img/timeline-card-img2.jpg" alt="">
-                                <p>북, 콘크리트로 GP 복원‥경의선 도로에는 지뢰</p>
-                            </a>
-                            <div class="time">1시간전</div>
-                        </div>
-                        <div class="timeline-card-box">
-                            <a href="#">
-                                <img src="./img/timeline-card-img3.jpg" alt="">
-                                <p>북한, 최전방 감시초소 시설 콘크리트 복구‥경의선 도로엔 지뢰 매설</p>
-                            </a>
-                            <div class="time">4시간전</div>
-                        </div>
-                        <div class="timeline-card-box">
-                            <a href="#">
-                                <img src="./img/timeline-card-img4.jpg" alt="">
-                                <p>"북한, 러에 탄도미사일 제공‥이미 우크라에 사용"</p>
-                            </a>
-                            <div class="time">7시간전</div>
-                        </div>
-                        <div class="timeline-card-box">
-                            <a href="#">
-                                <img src="./img/timeline-card-img5.jpg" alt="">
-                                <p>"북한, 러시아에 단거리 탄도미사일 이송 시작"</p>
-                            </a>
-                            <div class="time">16시간전</div>
-                        </div>
-                    </div>
+      <!-- section2 -->
+      <section class="section2">
+        <div class="container-wrap">
+          <div class="ai-pick-wrap">
+            <div class="ai-pick-left-box">
+              <div class="ai-pick-title-box">
+                <h3>AI Pick</h3>
+                <div class="ai-pick-num-wrap">
+                  <div class="ai-pick-num-box">
+                    <span>1</span>
+                    <span>/</span>
+                    <span>4</span>
+                  </div>
+                  <div class="ai-pick-paging-box">
+                    <a href="#"><img src="./img/btn_left.png" alt="" /></a>
+                    <a href="#"><img src="./img/btn_right.png" alt="" /></a>
+                  </div>
                 </div>
+              </div>
+              <div class="ai-pick-card-wrap">
+                <div class="ai-pick-card-box">
+                  <a href="#">
+                    <img
+                      src="./img/ai-pick-vod1.jpg"
+                      alt="ai-pick 뉴스 썸네일"
+                    />
+                    <p>우체국 금융 또 장애‥"원인 파악 중"</p>
+                  </a>
+                </div>
+                <div class="ai-pick-card-box">
+                  <a href="#">
+                    <img
+                      src="./img/ai-pick-vod2.jpg"
+                      alt="ai-pick 뉴스 썸네일"
+                    />
+                    <p>트럼프 "바이든은 사기꾼이자 악당‥민주당 후보 안될 것"</p>
+                  </a>
+                </div>
+                <div class="ai-pick-card-box">
+                  <a href="#">
+                    <img
+                      src="./img/ai-pick-vod3.jpg"
+                      alt="ai-pick 뉴스 썸네일"
+                    />
+                    <p>반격 나선 우크라‥러 "집속탄 발사" 주장</p>
+                  </a>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="ai-pick-right-box">
+              <div class="ai-pick-desk-title-box">
+                <div class="ai-pick-desk-box">
+                  <div class="bg">Next</div>
+                </div>
+                <p>뉴스데스크</p>
+              </div>
+              <div class="ai-pick-desk-img-box">
+                <img src="./img/news-desk.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="m-big-wrap"></div>
+        </div>
+      </section>
 
-        <!-- section5 -->
-        <section class="section5">
-            <div class="container-wrap">
-                <div class="news-rank-wrap">
-                    <div class="news-rank-left-box">
-                        <div class="news-rank-title-box">
-                            <h2>많이 본 뉴스</h2>
-                            <div class="news-rank-tab-list">
-                                <ul>
-                                    <li><a href="#">MBC</a></li>
-                                    <li><a href="#">포털</a></li>
-                                    <li><a href="#">SNS</a></li>
-                                    <li><a href="#">유튜브</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="news-rank-content-box">
-                            <div class="news-rank-card-left-list">
-                                <a href="#">
-                                    <p class="m-news-rank1"><span>1.</span>"이재명 왜 공격했나?" 질문에‥이틀 만에 입 연 피의자 [현장영상]</p>
-                                    <img src="./img/news-rank-img.jpg" alt="">
-                                    <p class="pc-news-rank1"><span>1.</span>"이재명 왜 공격했나?" 질문에‥이틀 만에 입 연 피의자 [현장영상]</p>
-                                </a>
-                            </div>
-                            <div class="news-rank-card-right-list">
-                                <a href="#">
-                                    <span>2.</span>
-                                    <p>북, 서해 접경서 200여 발 포격‥군, 대응 사격</p>
-                                </a>
-                                <a href="#">
-                                    <span>3.</span>
-                                    <p>[단독] 고용노동부, '직원 강제 춤 연습' 이랜드리테일도 근로감독 시작</p>
-                                </a>
-                                <a href="#">
-                                    <span>4.</span>
-                                    <p>한국인 관광객, 괌에서 총 맞아 사망‥괌 정부 "초유사건에 애도"</p>
-                                </a>
-                                <a href="#">
-                                    <span>5.</span>
-                                    <p>"거대 야당, 이재명 살리기 올인"‥습격범 '변명문' 내용 드러났다</p>
-                                </a>
-                                <a href="#">
-                                    <span>6.</span>
-                                    <p>'골든타임' 이미 지나‥사망자·실종자 급증</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-plus-wrap">
-                        <div class="news-plus-title-wrap">
-                            <h2>취재플러스</h2>
-                            <div class="news-plus-title-box">
-                                <div class="news-plus-num-box">
-                                    <span>1</span>
-                                    <span>/</span>
-                                    <span>2</span>
-                                </div>
-                                <div class="news-plus-paging-box">
-                                    <a href="#"><img src="./img/btn_left.png" alt=""></a>
-                                    <a href="#"><img src="./img/btn_right.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-plus-img-wrap">
-                            <div class="news-plus-box">
-                                <img src="./img/news-plus-img1.jpg" alt="">
-                                <p>[바로간다] 결국 줄서기 푯말 제거했지만‥근본적 해결책 '요원'</p>
-                            </div>
-                            <div class="news-plus-box">
-                                <img src="./img/news-plus-img2.jpg" alt="">
-                                <p>[현장36.5] 건강을 지키는 등대, '공공 야간약국'</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- section3 -->
+      <section class="section3">
+        <div class="container-wrap">
+          <div class="m-ad">
+            <div class="ad-txt">
+              <a href="#" target="_blank">
+                <span>
+                  <img
+                    src="./img/m-ad.png"
+                    alt="MBC 뉴스는 24시간 여러분의 제보를 기다립니다."
+                  />
+                </span>
+              </a>
             </div>
-        </section>
+          </div>
+          <div class="mbig-wrap">
+            <div class="mbig-content-wrap">
+              <div class="mbig-left-box">
+                <div class="mbig-title-box">
+                  <h2>엠빅 X 14F</h2>
+                  <div class="mbig-pick-num-wrap">
+                    <div class="mbig-pick-num-box">
+                      <span>1</span>
+                      <span>/</span>
+                      <span>4</span>
+                    </div>
+                    <div class="mbig-pick-paging-box">
+                      <a href="#"><img src="./img/btn_left.png" alt="" /></a>
+                      <a href="#"><img src="./img/btn_right.png" alt="" /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="mbig-pick-card-wrap">
+                  <div class="mbig-pick-card-box">
+                    <a href="#">
+                      <img
+                        src="./img/mbig-pick-vod1.png"
+                        alt="ai-pick 뉴스 썸네일"
+                      />
+                      <p>우체국 금융 또 장애‥"원인 파악 중"</p>
+                    </a>
+                  </div>
+                  <div class="mbig-pick-card-box">
+                    <a href="#">
+                      <img
+                        src="./img/mbig-pick-vod2.jpg"
+                        alt="ai-pick 뉴스 썸네일"
+                      />
+                      <p>
+                        트럼프 "바이든은 사기꾼이자 악당‥민주당 후보 안될 것"
+                      </p>
+                    </a>
+                  </div>
+                  <div class="mbig-pick-card-box">
+                    <a href="#">
+                      <img
+                        src="./img/mbig-pick-vod3.jpg"
+                        alt="ai-pick 뉴스 썸네일"
+                      />
+                      <p>반격 나선 우크라‥러 "집속탄 발사" 주장</p>
+                    </a>
+                  </div>
+                  <div class="mbig-pick-card-box">
+                    <a href="#">
+                      <img
+                        src="./img/mbig-pick-vod3.jpg"
+                        alt="ai-pick 뉴스 썸네일"
+                      />
+                      <p>반격 나선 우크라‥러 "집속탄 발사" 주장</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="mbig-right-box">
+                <div class="tving-wrap">
+                  <div class="tving-top-box">
+                    <div class="tving-content-box">
+                      <a href="#">
+                        <p>블랙프라이데이<br />90%할인</p>
+                      </a>
+                    </div>
+                    <div class="tving-free-more-box">
+                      <a href="#">
+                        당신이 찾는 모든 상품을 TEMU에서 90%<br />
+                        할인받은 초저가로 구매하세요 (ft.무료배송)
+                      </a>
+                      <a href="#"><img src="./img/tving-arr.svg" alt="" /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tving-bottom-box">
+                  <div class="tving-info-box">
+                    <a href="#"><img src="./img/x-mark.png" alt="" /></a>
+                    <a href="#"><img src="./img/info.png" alt="" /></a>
+                  </div>
+                  <div class="tving-Temu-box">
+                    <a href="#">Temu</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- section6 -->
-        <section class="section6">
-            <div class="container-wrap">
-                <div class="sports-content-wrap">
-                    <div class="sports-left-box">
-                        <div class="sports-title-box">
-                            <h2>스포츠</h2>
-                            <div class="sports-btn-more-box">
-                                <a href="#"><img src="./img/btn_more.jpg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="sports-content-wrap">
-                            <div class="sports-content-left-box">
-                                <div class="sports-content-vod-box">
-                                    <a href="#"><img src="./img/sports-vod.jpg" alt=""></a>
-                                </div>
-                                <p>[스포츠 영상] 남자 자유형 국가대표 선수들 '호주 전지훈련' 출국</p>
-                            </div>
-                            <div class="sports-content-right-box">
-                                <ul>
-                                    <li><a href="#">[톱플레이] '외계인 VS 괴물' 첫 맞대결.. '불꽃 튀는 승부였어!'</a></li>
-                                    <li><a href="#">"뛰는 야구로 최다승 도전" ..'LG 새 마무리는 유영찬'</a></li>
-                                    <li><a href="#">김민재, 국제축구역사통계연맹 선정 '월드 베스트 11'</a></li>
-                                    <li><a href="#">프로축구 FC서울, 'U-20 월드컵 준우승' 윙백 최준 영입</a></li>
-                                    <li><a href="#">KIA 최형우, 역대 최고령 비FA 다년계약.. 1+1년 22억원</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sports-right-box">
-                        <a href="#"><img src="./img/sports-banner.png" alt=""></a>
-                    </div>
-                </div>
+      <!-- section4 -->
+      <section class="section4">
+        <div class="container-wrap">
+          <div class="timeline-wrap">
+            <div class="timeline-title-box">
+              <div class="timeline-keyword-list">
+                <h2>타임라인</h2>
+                <ul>
+                  <li><a href="#">한반도 이슈</a></li>
+                  <li><a href="#">한일 관계</a></li>
+                  <li><a href="#">성범죄</a></li>
+                  <li><a href="#">아동학대</a></li>
+                </ul>
+              </div>
+              <div class="timeline-bore-box">
+                <a href="#"><img src="./img/btn_more.jpg" alt="" /></a>
+              </div>
             </div>
-        </section>
+            <div class="timeline-content-wrap">
+              <div class="timeline-card-box">
+                <a href="#">
+                  <img src="./img/timeline-card-img1.jpg" alt="" />
+                  <p>"북, 러에 탄도미사일 제공‥이미 우크라에 사용"</p>
+                </a>
+                <div class="time">1시간전</div>
+              </div>
+              <div class="timeline-card-box">
+                <a href="#">
+                  <img src="./img/timeline-card-img2.jpg" alt="" />
+                  <p>북, 콘크리트로 GP 복원‥경의선 도로에는 지뢰</p>
+                </a>
+                <div class="time">1시간전</div>
+              </div>
+              <div class="timeline-card-box">
+                <a href="#">
+                  <img src="./img/timeline-card-img3.jpg" alt="" />
+                  <p>
+                    북한, 최전방 감시초소 시설 콘크리트 복구‥경의선 도로엔 지뢰
+                    매설
+                  </p>
+                </a>
+                <div class="time">4시간전</div>
+              </div>
+              <div class="timeline-card-box">
+                <a href="#">
+                  <img src="./img/timeline-card-img4.jpg" alt="" />
+                  <p>"북한, 러에 탄도미사일 제공‥이미 우크라에 사용"</p>
+                </a>
+                <div class="time">7시간전</div>
+              </div>
+              <div class="timeline-card-box">
+                <a href="#">
+                  <img src="./img/timeline-card-img5.jpg" alt="" />
+                  <p>"북한, 러시아에 단거리 탄도미사일 이송 시작"</p>
+                </a>
+                <div class="time">16시간전</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- section7 -->
-        <section class="section7">
-            <div class="container-wrap">
-                <div class="enter-content-wrap">
-                    <div class="enter-left-box">
-                        <div class="enter-title-box">
-                            <h2>iMBC 연예</h2>
-                            <div class="enter-btn-more-box">
-                                <a href="#"><img src="./img/btn_more.jpg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="enter-content-wrap">
-                            <div class="enter-content-left-box">
-                                <div class="enter-content-vod-box">
-                                    <a href="#"><img src="./img/enter-vod.jpg" alt=""></a>
-                                </div>
-                                <p>[스포츠 영상] 남자 자유형 국가대표 선수들 '호주 전지훈련' 출국</p>
-                            </div>
-                            <div class="enter-content-right-box">
-                                <ul>
-                                    <li><a href="#">차준환, 종합선수권 8연패‥신지아는 2연패</a></li>
-                                    <li><a href="#">'폭소만발' 올스타전‥"감독님, 그냥 집에 가!"</a></li>
-                                    <li><a href="#">6연승·7경기 무실점‥이강인은 '아쉬운 퇴장'</a></li>
-                                    <li><a href="#">축구대표팀, 아시안컵 앞두고 이라크에 1:0 승리</a></li>
-                                    <li><a href="#">클린스만호, 아시안컵 앞두고 이라크에 1-0 승리</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="enter-right-box">
-                        <div class="enter-banner-top-box">
-                            <a href="#">블랙프라이데이 90% 할인</a>
-                        </div>
-                        <div class="enter-banner-img"></div>
-                        <div class="enter-banner-bottom-box">
-                            <div class="enter-temu-img">
-                                <img src="./img/enter-temu-img.png" alt="">
-                                <p>Temu</p>
-                            </div>
-                            <a href="#"><span>구매하기</span></a>
-                        </div>
-                    </div>
+      <!-- section5 -->
+      <section class="section5">
+        <div class="container-wrap">
+          <div class="news-rank-wrap">
+            <div class="news-rank-left-box">
+              <div class="news-rank-title-box">
+                <h2>많이 본 뉴스</h2>
+                <div class="news-rank-tab-list">
+                  <ul>
+                    <li><a href="#">MBC</a></li>
+                    <li><a href="#">포털</a></li>
+                    <li><a href="#">SNS</a></li>
+                    <li><a href="#">유튜브</a></li>
+                  </ul>
                 </div>
+              </div>
+              <div class="news-rank-content-box">
+                <div class="news-rank-card-left-list">
+                  <a href="#">
+                    <p class="m-news-rank1">
+                      <span>1.</span>"이재명 왜 공격했나?" 질문에‥이틀 만에 입
+                      연 피의자 [현장영상]
+                    </p>
+                    <img src="./img/news-rank-img.jpg" alt="" />
+                    <p class="pc-news-rank1">
+                      <span>1.</span>"이재명 왜 공격했나?" 질문에‥이틀 만에 입
+                      연 피의자 [현장영상]
+                    </p>
+                  </a>
+                </div>
+                <div class="news-rank-card-right-list">
+                  <a href="#">
+                    <span>2.</span>
+                    <p>북, 서해 접경서 200여 발 포격‥군, 대응 사격</p>
+                  </a>
+                  <a href="#">
+                    <span>3.</span>
+                    <p>
+                      [단독] 고용노동부, '직원 강제 춤 연습' 이랜드리테일도
+                      근로감독 시작
+                    </p>
+                  </a>
+                  <a href="#">
+                    <span>4.</span>
+                    <p>
+                      한국인 관광객, 괌에서 총 맞아 사망‥괌 정부 "초유사건에
+                      애도"
+                    </p>
+                  </a>
+                  <a href="#">
+                    <span>5.</span>
+                    <p>
+                      "거대 야당, 이재명 살리기 올인"‥습격범 '변명문' 내용
+                      드러났다
+                    </p>
+                  </a>
+                  <a href="#">
+                    <span>6.</span>
+                    <p>'골든타임' 이미 지나‥사망자·실종자 급증</p>
+                  </a>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="news-plus-wrap">
+              <div class="news-plus-title-wrap">
+                <h2>취재플러스</h2>
+                <div class="news-plus-title-box">
+                  <div class="news-plus-num-box">
+                    <span>1</span>
+                    <span>/</span>
+                    <span>2</span>
+                  </div>
+                  <div class="news-plus-paging-box">
+                    <a href="#"><img src="./img/btn_left.png" alt="" /></a>
+                    <a href="#"><img src="./img/btn_right.png" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="news-plus-img-wrap">
+                <div class="news-plus-box">
+                  <img src="./img/news-plus-img1.jpg" alt="" />
+                  <p>
+                    [바로간다] 결국 줄서기 푯말 제거했지만‥근본적 해결책 '요원'
+                  </p>
+                </div>
+                <div class="news-plus-box">
+                  <img src="./img/news-plus-img2.jpg" alt="" />
+                  <p>[현장36.5] 건강을 지키는 등대, '공공 야간약국'</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section s_plus">
+            <h3 class="section_title">
+              <strong class="tit">취재플러스</strong>
+            </h3>
+            <div class="plus_list card_list list_slider wrapper">
+              <ul class="card_slide" style="width: 2010px">
+                <li class="item" style="background-color: #af5b4f">
+                  <a href="#">
+                    <span class="card_logo" style="background-color: #af5b4f">
+                      <img src="" alt="서초동M본부"
+                    /></span>
+                    <span class="txt_w">
+                      <span class="tit">
+                        <span class="ellipsis2">
+                          '지인능욕'·'딥페이크' 처벌법 생겼다‥실제 처벌 수위는?
+                          [서초동M본부]</span
+                        >
+                      </span>
+                    </span>
+                    <span class="more_view">자세히 보기</span>
+                  </a>
+                </li>
+                <li class="item" style="background-color: #3cc9d6">
+                  <a href="#">
+                    <span class="card_logo" style="background-color: #3cc9d6">
+                      <img src="" alt="기후환경리포트"
+                    /></span>
+                    <span class="txt_w">
+                      <span class="tit">
+                        <span class="ellipsis2">
+                          [기후환경 리포트] 대륙에서 온 수상한 가스, 이산화탄소
+                          14,800배 폭탄</span
+                        >
+                      </span>
+                    </span>
+                    <span class="more_view">자세히 보기</span>
+                  </a>
+                </li>
+                <li class="item" style="background-color: #1e77a9">
+                  <a href="@">
+                    <span class="card_logo" style="background-color: #1e77a9">
+                      <img src="" alt="바로간다"
+                    /></span>
+                    <span class="txt_w">
+                      <span class="tit">
+                        <span class="ellipsis2">
+                          [바로간다] 결국 줄서기 푯말 제거했지만‥근본적 해결책
+                          '요원'</span
+                        >
+                      </span>
+                    </span>
+                    <span class="more_view">자세히 보기</span>
+                  </a>
+                </li>
+                <li class="item" style="background-color: #0992cf">
+                  <a href="#">
+                    <span class="card_logo" style="background-color: #0992cf">
+                      <img src="" alt="현장36.5"
+                    /></span>
+                    <span class="txt_w">
+                      <span class="tit">
+                        <span class="ellipsis2">
+                          [현장36.5] 건강을 지키는 등대, '공공 야간약국'</span
+                        >
+                      </span>
+                    </span>
+                    <span class="more_view">자세히 보기</span>
+                  </a>
+                </li>
+                <li class="item" style="background-color: #1e77a9">
+                  <a href="#">
+                    <span class="card_logo" style="background-color: #1e77a9">
+                      <img src="" alt="바로간다"
+                    /></span>
+                    <span class="txt_w">
+                      <span class="tit">
+                        <span class="ellipsis2">
+                          [바로간다] 휠체어에 출입문 와장창‥국가 시설 아니면
+                          자동문 설치 안 해도 된다?</span
+                        >
+                      </span>
+                    </span>
+                    <span class="more_view">자세히 보기</span>
+                  </a>
+                </li>
+                <li class="item" style="background-color: #1e77a9">
+                  <a href="#">
+                    <span class="card_logo" style="background-color: #1e77a9">
+                      <img src="" alt="바로간다"
+                    /></span>
+                    <span class="txt_w">
+                      <span class="tit">
+                        <span class="ellipsis2">
+                          [바로간다] 물류창고 둘러싼 갈등, 지자체는 '이러지도
+                          저러지도'
+                        </span>
+                      </span>
+                    </span>
+                    <span class="more_view">자세히 보기</span>
+                  </a>
+                </li>
+                <li class="item" style="background-color: ">
+                  <a href="#">
+                    <span class="card_logo" style="background-color: ">
+                      <img src="" alt="넥스트"
+                    /></span>
+                    <span class="txt_w">
+                      <span class="tit">
+                        <span class="ellipsis2">
+                          "이건 경호가 아니라 폭행!"‥영상 퍼지자 소속사 긴급
+                          사과
+                        </span>
+                      </span>
+                    </span>
+                    <span class="more_view">자세히 보기</span>
+                  </a>
+                </li>
+                <li class="item" style="background-color: #0992cf">
+                  <a href="#">
+                    <span class="card_logo" style="background-color: #0992cf">
+                      <img src="" alt="현장36.5"
+                    /></span>
+                    <span class="txt_w">
+                      <span class="tit">
+                        <span class="ellipsis2">
+                          [현장36.5] 느린아이‥전력 질주하는 부모</span
+                        >
+                      </span>
+                    </span>
+                    <span class="more_view">자세히 보기</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- section8 -->
-        <section class="section8">
-            <div class="container-wrap">
-                <div class="weekly-wrap">
-                    <div class="weekly-title-box">
-                        <h2>위클리</h2>
-                    </div>
-                    <div class="weekly-content-box">
-                        <div class="weekly-card-box">
-                            <div class="weekly-img-box">
-                                <img src="./img/weekly-vod1.jpg" alt="">
-                            </div>
-                            <div class="weekly-card-box-title">
-                                <p>[스트레이트] 무너지는 녹색경제 윤석열 정부와 한국의 역주행</p>
-                            </div>
-                            <div class="weekly-channel-box">
-                                <div class="weekly-logo-img">
-                                    <a href="#"><img src="./img/weekly-logo.png" alt=""></a>
-                                </div>
-                                <a href="#"><span>스트레이트</span></a>
-                            </div>
-                        </div>
-                        <div class="weekly-card-box">
-                            <div class="weekly-img-box">
-                                <img src="./img/weekly-vod2.jpg" alt="">
-                            </div>
-                            <div class="weekly-card-box-title">
-                                <p> 무너지는 녹색경제 윤석열 정부와 한국의 역주행</p>
-                            </div>
-                            <div class="weekly-channel-box">
-                                <div class="weekly-logo-img">
-                                    <a href="#"><img src="./img/weekly-logo.png" alt=""></a>
-                                </div>
-                                <a href="#"><span>스트레이트</span></a>
-                            </div>
-                        </div>
-                        <div class="weekly-card-box">
-                            <div class="weekly-img-box">
-                                <img src="./img/weekly-vod3.jpg" alt="">
-                            </div>
-                            <div class="weekly-card-box-title">
-                                <p> '즉·강·끝'과 '대사변' 남북 강경파들의 치킨 게임</p>
-                            </div>
-                            <div class="weekly-channel-box">
-                                <div class="weekly-logo-img">
-                                    <a href="#"><img src="./img/weekly-logo.png" alt=""></a>
-                                </div>
-                                <a href="#"><span>스트레이트</span></a>
-                            </div>
-                        </div>
-                        <div class="weekly-card-box">
-                            <div class="weekly-img-box">
-                                <img src="./img/weekly-vod4.jpg" alt="">
-                            </div>
-                            <div class="weekly-card-box-title">
-                                <p>통일전망대 34년에 담긴 남북관계 굴곡</p>
-                            </div>
-                            <div class="weekly-channel-box">
-                                <div class="weekly-logo-img">
-                                    <a href="#"><img src="./img/weekly-logo2.png" alt=""></a>
-                                </div>
-                                <a href="#"><span>스트레이트</span></a>
-                            </div>
-                        </div>
-                        <div class="weekly-card-box">
-                            <div class="weekly-img-box">
-                                <img src="./img/weekly-vod5.jpg" alt="">
-                            </div>
-                            <div class="weekly-card-box-title">
-                                <p>2023 북한 외교 핵심은 반미연대</p>
-                            </div>
-                            <div class="weekly-channel-box">
-                                <div class="weekly-logo-img">
-                                    <a href="#"><img src="./img/weekly-logo2.png" alt=""></a>
-                                </div>
-                                <a href="#"><span>스트레이트</span></a>
-                            </div>
-                        </div>
-                    </div>
+      <!-- section6 -->
+      <section class="section6">
+        <div class="container-wrap">
+          <div class="sports-content-wrap">
+            <div class="sports-left-box">
+              <div class="sports-title-box">
+                <h2>스포츠</h2>
+                <div class="sports-btn-more-box">
+                  <a href="#"><img src="./img/btn_more.jpg" alt="" /></a>
                 </div>
+              </div>
+              <div class="sports-content-wrap">
+                <div class="sports-content-left-box">
+                  <div class="sports-content-vod-box">
+                    <a href="#"><img src="./img/sports-vod.jpg" alt="" /></a>
+                  </div>
+                  <p>
+                    [스포츠 영상] 남자 자유형 국가대표 선수들 '호주 전지훈련'
+                    출국
+                  </p>
+                </div>
+                <div class="sports-content-right-box">
+                  <ul>
+                    <li>
+                      <a href="#"
+                        >[톱플레이] '외계인 VS 괴물' 첫 맞대결.. '불꽃 튀는
+                        승부였어!'</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >"뛰는 야구로 최다승 도전" ..'LG 새 마무리는 유영찬'</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >김민재, 국제축구역사통계연맹 선정 '월드 베스트 11'</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >프로축구 FC서울, 'U-20 월드컵 준우승' 윙백 최준 영입</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >KIA 최형우, 역대 최고령 비FA 다년계약.. 1+1년 22억원</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="sports-right-box">
+              <a href="#"><img src="./img/sports-banner.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- section9 -->
-        <section class="section9">
-            <div class="container-wrap">
-                <div class="hot-news-warp">
-                    <div class="hot-news-title-box">
-                        <h2>추천뉴스</h2>
-                        <div class="hot-news-dable-box">
-                            <span>by</span>
-                            <img src="./img/dable.png" alt="">
-                        </div>
-                    </div>
-                    <div class="hot-news-content-wrap">
-                        <div class="hot-news-card-box">
-                            <img src="./img/hot-news-thum1.webp" alt="">
-                            <div class="hot-news-card-text-box">
-                                <p>안철상·민유숙 후임 대법관<br> 후보 42명 공개‥여성은 7명</p>
-                            </div>
-                        </div>
-                        <div class="hot-news-card-box">
-                            <img src="./img/hot-news-thum2.webp" alt="">
-                            <div class="hot-news-card-text-box">
-                                <p>안철상·민유숙 후임 대법관<br> 후보 42명 공개‥ 여성은 7명</p>
-                            </div>
-                        </div>
-                        <div class="hot-news-card-box">
-                            <img src="./img/hot-news-thum3.webp" alt="">
-                            <div class="hot-news-card-text-box">
-                                <p>[와글와글] 연말에 강원 속초서<br> 대게 주문‥"'검은 얼룩' 발견"</p>
-                            </div>
-                        </div>
-                        <div class="hot-news-card-box">
-                            <img src="./img/hot-news-thum4.webp" alt="">
-                            <div class="hot-news-card-text-box">
-                                <p>나도 모르게 "주르륵.."...<br> 만성비염 당장 고쳐야할 습관</p>
-                            </div>
-                        </div>
-                        <div class="hot-news-card-box">
-                            <img src="./img/hot-news-thum5.webp" alt="">
-                            <div class="hot-news-card-text-box">
-                                <p>[이 시각 세계] 일본 강진에 사도<br> 광산 피해‥석축 구조물 무너져</p>
-                            </div>
-                        </div>
-                        <div class="hot-news-card-box">
-                            <img src="./img/hot-news-thum6.webp" alt="">
-                            <div class="hot-news-card-text-box">
-                                <p>2023년 가장 현실감 넘치는<br> PC 게임</p>
-                            </div>
-                        </div>
-                        <div class="hot-news-card-box">
-                            <img src="./img/hot-news-thum7.webp" alt="">
-                            <div class="hot-news-card-text-box">
-                                <p>안철상·민유숙 후임 대법관<br> 후보 42명 공개‥ 여성은 7명</p>
-                            </div>
-                        </div>
-                        <div class="hot-news-card-box">
-                            <img src="./img/hot-news-thum8.webp" alt="">
-                            <div class="hot-news-card-text-box">
-                                <p>윤 대통령, '쌍특검'에 거부권<br> 행사‥야4당 "권력 사유화" 반발</p>
-                            </div>
-                        </div>
-                        <div class="hot-news-card-box">
-                            <img src="./img/hot-news-thum9.webp" alt="">
-                            <div class="hot-news-card-text-box">
-                                <p>민경우'노인 발언'논란에 대한<br>회장 "즉각 사퇴·한동훈 사과"</p>
-                            </div>
-                        </div>
-                        <div class="hot-news-card-box">
-                            <img src="./img/hot-news-thum11.webp" alt="">
-                            <div class="hot-news-card-text-box">
-                                <p>문재인, 이재명 피습에 "용서<br>못할 테러행위‥민주주의 중대"</p>
-                            </div>
-                        </div>
-                    </div>
+      <!-- section7 -->
+      <section class="section7">
+        <div class="container-wrap">
+          <div class="enter-content-wrap">
+            <div class="enter-left-box">
+              <div class="enter-title-box">
+                <h2>iMBC 연예</h2>
+                <div class="enter-btn-more-box">
+                  <a href="#"><img src="./img/btn_more.jpg" alt="" /></a>
                 </div>
+              </div>
+              <div class="enter-content-wrap">
+                <div class="enter-content-left-box">
+                  <div class="enter-content-vod-box">
+                    <a href="#"><img src="./img/enter-vod.jpg" alt="" /></a>
+                  </div>
+                  <p>
+                    [스포츠 영상] 남자 자유형 국가대표 선수들 '호주 전지훈련'
+                    출국
+                  </p>
+                </div>
+                <div class="enter-content-right-box">
+                  <ul>
+                    <li>
+                      <a href="#">차준환, 종합선수권 8연패‥신지아는 2연패</a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >'폭소만발' 올스타전‥"감독님, 그냥 집에 가!"</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#">6연승·7경기 무실점‥이강인은 '아쉬운 퇴장'</a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >축구대표팀, 아시안컵 앞두고 이라크에 1:0 승리</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >클린스만호, 아시안컵 앞두고 이라크에 1-0 승리</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="enter-right-box">
+              <div class="enter-banner-top-box">
+                <a href="#">블랙프라이데이 90% 할인</a>
+              </div>
+              <div class="enter-banner-img"></div>
+              <div class="enter-banner-bottom-box">
+                <div class="enter-temu-img">
+                  <img src="./img/enter-temu-img.png" alt="" />
+                  <p>Temu</p>
+                </div>
+                <a href="#"><span>구매하기</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section8 -->
+      <section class="section8">
+        <div class="container-wrap">
+          <div class="weekly-wrap">
+            <div class="weekly-title-box">
+              <h2>위클리</h2>
+            </div>
+            <div class="weekly-content-box">
+              <div class="weekly-card-box">
+                <div class="weekly-img-box">
+                  <img src="./img/weekly-vod1.jpg" alt="" />
+                </div>
+                <div class="weekly-card-box-title">
+                  <p>
+                    [스트레이트] 무너지는 녹색경제 윤석열 정부와 한국의 역주행
+                  </p>
+                </div>
+                <div class="weekly-channel-box">
+                  <div class="weekly-logo-img">
+                    <a href="#"><img src="./img/weekly-logo.png" alt="" /></a>
+                  </div>
+                  <a href="#"><span>스트레이트</span></a>
+                </div>
+              </div>
+              <div class="weekly-card-box">
+                <div class="weekly-img-box">
+                  <img src="./img/weekly-vod2.jpg" alt="" />
+                </div>
+                <div class="weekly-card-box-title">
+                  <p>무너지는 녹색경제 윤석열 정부와 한국의 역주행</p>
+                </div>
+                <div class="weekly-channel-box">
+                  <div class="weekly-logo-img">
+                    <a href="#"><img src="./img/weekly-logo.png" alt="" /></a>
+                  </div>
+                  <a href="#"><span>스트레이트</span></a>
+                </div>
+              </div>
+              <div class="weekly-card-box">
+                <div class="weekly-img-box">
+                  <img src="./img/weekly-vod3.jpg" alt="" />
+                </div>
+                <div class="weekly-card-box-title">
+                  <p>'즉·강·끝'과 '대사변' 남북 강경파들의 치킨 게임</p>
+                </div>
+                <div class="weekly-channel-box">
+                  <div class="weekly-logo-img">
+                    <a href="#"><img src="./img/weekly-logo.png" alt="" /></a>
+                  </div>
+                  <a href="#"><span>스트레이트</span></a>
+                </div>
+              </div>
+              <div class="weekly-card-box">
+                <div class="weekly-img-box">
+                  <img src="./img/weekly-vod4.jpg" alt="" />
+                </div>
+                <div class="weekly-card-box-title">
+                  <p>통일전망대 34년에 담긴 남북관계 굴곡</p>
+                </div>
+                <div class="weekly-channel-box">
+                  <div class="weekly-logo-img">
+                    <a href="#"><img src="./img/weekly-logo2.png" alt="" /></a>
+                  </div>
+                  <a href="#"><span>스트레이트</span></a>
+                </div>
+              </div>
+              <div class="weekly-card-box">
+                <div class="weekly-img-box">
+                  <img src="./img/weekly-vod5.jpg" alt="" />
+                </div>
+                <div class="weekly-card-box-title">
+                  <p>2023 북한 외교 핵심은 반미연대</p>
+                </div>
+                <div class="weekly-channel-box">
+                  <div class="weekly-logo-img">
+                    <a href="#"><img src="./img/weekly-logo2.png" alt="" /></a>
+                  </div>
+                  <a href="#"><span>스트레이트</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section9 -->
+      <section class="section9">
+        <div class="container-wrap">
+          <div class="hot-news-warp">
+            <div class="hot-news-title-box">
+              <h2>추천뉴스</h2>
+              <div class="hot-news-dable-box">
+                <span>by</span>
+                <img src="./img/dable.png" alt="" />
+              </div>
+            </div>
+            <div class="hot-news-content-wrap">
+              <div class="hot-news-card-box">
+                <img src="./img/hot-news-thum1.webp" alt="" />
+                <div class="hot-news-card-text-box">
+                  <p>
+                    안철상·민유숙 후임 대법관<br />
+                    후보 42명 공개‥여성은 7명
+                  </p>
+                </div>
+              </div>
+              <div class="hot-news-card-box">
+                <img src="./img/hot-news-thum2.webp" alt="" />
+                <div class="hot-news-card-text-box">
+                  <p>
+                    안철상·민유숙 후임 대법관<br />
+                    후보 42명 공개‥ 여성은 7명
+                  </p>
+                </div>
+              </div>
+              <div class="hot-news-card-box">
+                <img src="./img/hot-news-thum3.webp" alt="" />
+                <div class="hot-news-card-text-box">
+                  <p>
+                    [와글와글] 연말에 강원 속초서<br />
+                    대게 주문‥"'검은 얼룩' 발견"
+                  </p>
+                </div>
+              </div>
+              <div class="hot-news-card-box">
+                <img src="./img/hot-news-thum4.webp" alt="" />
+                <div class="hot-news-card-text-box">
+                  <p>
+                    나도 모르게 "주르륵.."...<br />
+                    만성비염 당장 고쳐야할 습관
+                  </p>
+                </div>
+              </div>
+              <div class="hot-news-card-box">
+                <img src="./img/hot-news-thum5.webp" alt="" />
+                <div class="hot-news-card-text-box">
+                  <p>
+                    [이 시각 세계] 일본 강진에 사도<br />
+                    광산 피해‥석축 구조물 무너져
+                  </p>
+                </div>
+              </div>
+              <div class="hot-news-card-box">
+                <img src="./img/hot-news-thum6.webp" alt="" />
+                <div class="hot-news-card-text-box">
+                  <p>
+                    2023년 가장 현실감 넘치는<br />
+                    PC 게임
+                  </p>
+                </div>
+              </div>
+              <div class="hot-news-card-box">
+                <img src="./img/hot-news-thum7.webp" alt="" />
+                <div class="hot-news-card-text-box">
+                  <p>
+                    안철상·민유숙 후임 대법관<br />
+                    후보 42명 공개‥ 여성은 7명
+                  </p>
+                </div>
+              </div>
+              <div class="hot-news-card-box">
+                <img src="./img/hot-news-thum8.webp" alt="" />
+                <div class="hot-news-card-text-box">
+                  <p>
+                    윤 대통령, '쌍특검'에 거부권<br />
+                    행사‥야4당 "권력 사유화" 반발
+                  </p>
+                </div>
+              </div>
+              <div class="hot-news-card-box">
+                <img src="./img/hot-news-thum9.webp" alt="" />
+                <div class="hot-news-card-text-box">
+                  <p>
+                    민경우'노인 발언'논란에 대한<br />회장 "즉각 사퇴·한동훈
+                    사과"
+                  </p>
+                </div>
+              </div>
+              <div class="hot-news-card-box">
+                <img src="./img/hot-news-thum11.webp" alt="" />
+                <div class="hot-news-card-text-box">
+                  <p>
+                    문재인, 이재명 피습에 "용서<br />못할 테러행위‥민주주의
+                    중대"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- footer -->
-    <footer> 
-        <div class="footer-title-wrap">
-            <div class="footer-title-box">
-                <ul>
-                    <li>다시보기</li>
-                    <li>분야별 뉴스</li>
-                    <li>취재플러스</li>
-                    <li>엠빅 X 14F</li>
-                    <li>바로가기</li>
-                </ul>
-            </div>
-            <div class="footer-list-wrap">
-                <ul class="footer-list-box">
-                    <li><a href="#">뉴스데스크</a></li>
-                    <li><a href="#">뉴스투데이</a></li>
-                    <li><a href="#">뉴스외전</a></li>
-                    <li><a href="#">뉴스특보</a></li>
-                    <li><a href="#">930MBC뉴스</a></li>
-                    <li><a href="#">12MBC뉴스</a></li>
-                    <li><a href="#">5MBC뉴스</a></li>
-                    <li><a href="#">라디오뉴스</a></li>
-                    <li><a href="#">스트레이트</a></li>
-                    <li><a href="#">통일전망대</a></li>
-                </ul>
-                <ul class="footer-list-box">
-                    <li><a href="#">정치</a></li>
-                    <li><a href="#">사회</a></li>
-                    <li><a href="#">국제</a></li>
-                    <li><a href="#">경제</a></li>
-                    <li><a href="#">문화</a></li>
-                    <li><a href="#">네트워크</a></li>
-                    <li><a href="#">스포츠</a></li>
-                    <li><a href="#">iMBC 연예</a></li>
-                    <li><a href="#">탐사보도</a></li>
-                </ul>
-                <ul class="footer-list-box">
-                    <li><a href="#">심층</a></li>
-                    <li><a href="#">알고보니</a></li>
-                    <li><a href="#">World Now</a></li>
-                    <li><a href="#">외통방통</a></li>
-                    <li><a href="#">탐정M</a></li>
-                    <li><a href="#">친절한 기자들</a></li>
-                    <li><a href="#">기후환경리포트</a></li>
-                    <li><a href="#">서초동M본부</a></li>
-                    <li><a href="#">현장36.5</a></li>
-                    <li><a href="#">국회M부스</a></li>
-                    <li><a href="#">M피소드</a></li>
-                    <li><a href="#">맥스MLB</a></li>
-                </ul>
-                <ul class="footer-list-box">
-                    <li><a href="#">엠빅뉴스</a></li>
-                    <li><a href="#">14F</a></li>
-                </ul>
-                <ul class="footer-list-box">
-                    <li><a href="#">제보</a></li>
-                    <li><a href="#">검색</a></li>
-                    <li><a href="#">MY PICK</a></li>
-                    <li><a href="#">지난 프로그램</a></li>
-                    <li><a href="#">게시판</a></li>
-                    <li><a href="#">이용약관</a></li>
-                    <li><a href="#">LIVE</a></li>
-                    <li><a href="#">APP 소개</a></li>
-                    <li><a href="#">계정관리</a></li>
-                </ul>
-            </div>
+    <footer>
+      <div class="footer-title-wrap">
+        <div class="footer-title-box">
+          <ul>
+            <li>다시보기</li>
+            <li>분야별 뉴스</li>
+            <li>취재플러스</li>
+            <li>엠빅 X 14F</li>
+            <li>바로가기</li>
+          </ul>
         </div>
-        <div class="footer-copyright-wrap">
-            <div class="container-wrap">
-                <div class="footer-copyright-text-box">
-                    <p>(주)문화방송 대표이사 안형준 서울시 마포구 성암로 267 (03925) MBC 대표전화 02-789-0011 <br>
-                        기사배열책임자, 청소년보호책임자 :  연보흠&nbsp;&nbsp;&nbsp;
-                    <a href="#">기사 배열 기본 원칙</a>&nbsp;&nbsp;&nbsp;
-                    <a href="#">청소년 보호 정책</a>&nbsp;&nbsp;&nbsp;
-                    <a href="#">개인정보 처리방침</a><br>
-                    <a href="#">Copyrightⓒ Since 1996, MBC All rights reserved. </a>    
-                    </p>   
-                </div>
-                <div class="footer-info-sns-box">
-                    <span>Follow us</span>
-                    <ul>             
-                        <li class="youtube"><a href="https://www.youtube.com/mbcnews11" target="_blank" title="새창열림">
-                            <img src="./img/youtube.png" alt=""></a></li>             
-                        <li class="facebook"><a href="https://www.facebook.com/MBCnews" target="_blank" title="새창열림">
-                            <img src="./img/facebook.png" alt="">
-                        </a></li>             
-                        <li class="twitter"><a href="http://twitter.com/mbcnews" target="_blank" title="새창열림">
-                            <img src="./img/twitter.png" alt="">  
-                        </a></li>
-                        <li class="band"><a href="https://band.us/@mbcnewsofficial" target="_blank" title="새창열림">
-                            <img src="./img/sns_band.png" alt="">
-                        </a></li>             
-                        <li class="post"><a href="https://post.naver.com/mbcnews_official" target="_blank" title="새창열림">
-                            <img src="./img/sns_naver.png" alt="">
-                        </a></li>             
-                        <li class="kakaoch"><a id="channel-add-button" href="http://pf.kakao.com/_xowixcxh" target="_blank" title="새창열림">
-                            <img src="./img/sns_kakaoch.png" alt="">
-                        </a></li>            
-                    </ul>
-                </div>
-            </div>
+        <div class="footer-list-wrap">
+          <ul class="footer-list-box">
+            <li><a href="#">뉴스데스크</a></li>
+            <li><a href="#">뉴스투데이</a></li>
+            <li><a href="#">뉴스외전</a></li>
+            <li><a href="#">뉴스특보</a></li>
+            <li><a href="#">930MBC뉴스</a></li>
+            <li><a href="#">12MBC뉴스</a></li>
+            <li><a href="#">5MBC뉴스</a></li>
+            <li><a href="#">라디오뉴스</a></li>
+            <li><a href="#">스트레이트</a></li>
+            <li><a href="#">통일전망대</a></li>
+          </ul>
+          <ul class="footer-list-box">
+            <li><a href="#">정치</a></li>
+            <li><a href="#">사회</a></li>
+            <li><a href="#">국제</a></li>
+            <li><a href="#">경제</a></li>
+            <li><a href="#">문화</a></li>
+            <li><a href="#">네트워크</a></li>
+            <li><a href="#">스포츠</a></li>
+            <li><a href="#">iMBC 연예</a></li>
+            <li><a href="#">탐사보도</a></li>
+          </ul>
+          <ul class="footer-list-box">
+            <li><a href="#">심층</a></li>
+            <li><a href="#">알고보니</a></li>
+            <li><a href="#">World Now</a></li>
+            <li><a href="#">외통방통</a></li>
+            <li><a href="#">탐정M</a></li>
+            <li><a href="#">친절한 기자들</a></li>
+            <li><a href="#">기후환경리포트</a></li>
+            <li><a href="#">서초동M본부</a></li>
+            <li><a href="#">현장36.5</a></li>
+            <li><a href="#">국회M부스</a></li>
+            <li><a href="#">M피소드</a></li>
+            <li><a href="#">맥스MLB</a></li>
+          </ul>
+          <ul class="footer-list-box">
+            <li><a href="#">엠빅뉴스</a></li>
+            <li><a href="#">14F</a></li>
+          </ul>
+          <ul class="footer-list-box">
+            <li><a href="#">제보</a></li>
+            <li><a href="#">검색</a></li>
+            <li><a href="#">MY PICK</a></li>
+            <li><a href="#">지난 프로그램</a></li>
+            <li><a href="#">게시판</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">LIVE</a></li>
+            <li><a href="#">APP 소개</a></li>
+            <li><a href="#">계정관리</a></li>
+          </ul>
         </div>
+      </div>
+      <div class="footer-copyright-wrap">
+        <div class="container-wrap">
+          <div class="footer-copyright-text-box">
+            <p>
+              (주)문화방송 대표이사 안형준 서울시 마포구 성암로 267 (03925) MBC
+              대표전화 02-789-0011 <br />
+              기사배열책임자, 청소년보호책임자 : 연보흠&nbsp;&nbsp;&nbsp;
+              <a href="#">기사 배열 기본 원칙</a>&nbsp;&nbsp;&nbsp;
+              <a href="#">청소년 보호 정책</a>&nbsp;&nbsp;&nbsp;
+              <a href="#">개인정보 처리방침</a><br />
+              <a href="#">Copyrightⓒ Since 1996, MBC All rights reserved. </a>
+            </p>
+          </div>
+          <div class="footer-info-sns-box">
+            <span>Follow us</span>
+            <ul>
+              <li class="youtube">
+                <a
+                  href="https://www.youtube.com/mbcnews11"
+                  target="_blank"
+                  title="새창열림"
+                >
+                  <img src="./img/youtube.png" alt=""
+                /></a>
+              </li>
+              <li class="facebook">
+                <a
+                  href="https://www.facebook.com/MBCnews"
+                  target="_blank"
+                  title="새창열림"
+                >
+                  <img src="./img/facebook.png" alt="" />
+                </a>
+              </li>
+              <li class="twitter">
+                <a
+                  href="http://twitter.com/mbcnews"
+                  target="_blank"
+                  title="새창열림"
+                >
+                  <img src="./img/twitter.png" alt="" />
+                </a>
+              </li>
+              <li class="band">
+                <a
+                  href="https://band.us/@mbcnewsofficial"
+                  target="_blank"
+                  title="새창열림"
+                >
+                  <img src="./img/sns_band.png" alt="" />
+                </a>
+              </li>
+              <li class="post">
+                <a
+                  href="https://post.naver.com/mbcnews_official"
+                  target="_blank"
+                  title="새창열림"
+                >
+                  <img src="./img/sns_naver.png" alt="" />
+                </a>
+              </li>
+              <li class="kakaoch">
+                <a
+                  id="channel-add-button"
+                  href="http://pf.kakao.com/_xowixcxh"
+                  target="_blank"
+                  title="새창열림"
+                >
+                  <img src="./img/sns_kakaoch.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

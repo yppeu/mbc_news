@@ -1991,7 +1991,8 @@ nav{
     .mbig-title-box > h2,
     .news-rank-title-box > h2,
     .ai-pick-title-box > h3,
-    .sports-title-box > h2{
+    .sports-title-box > h2,
+    .enter-title-box > h2{
         width: 50%;
         padding: 23px 20px 15px;
     }
@@ -2042,6 +2043,9 @@ nav{
     .enter-content-left-box{
         margin-right: 0;
     }
+    .section6{
+        padding-bottom: 0;
+    }
     .section6 > .container-wrap{
         width: 100%;
         padding: 0;
@@ -2049,9 +2053,23 @@ nav{
     .sports-title-box{
         padding: 0;
     }
-    .sports-content-vod-box > a > img{
+    .sports-content-vod-box > a > img,
+    .sports-content-left-box > p,
+    .sports-content-right-box{
         width: 90%;
         margin: auto;
+    }
+    .sports-content-left-box > p{
+        margin-top: 20px;
+        font-weight: 400;
+        border-bottom: 1px solid #f1f1f1;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+    }
+    .sports-content-right-box > ul >li{
+        border-bottom: 1px solid #f1f1f1;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
     }
     .sports-left-box,
     .enter-left-box{
@@ -2061,14 +2079,31 @@ nav{
     .enter-content-left-box{
         margin-bottom: 10px;
     }
+    .section7{
+        padding-bottom: 0;
+    }
+    .section7 > .container-wrap{
+        width: 100%;
+        padding: 0;
+    }
+    .enter-title-box{
+        padding: 0;
+    }
+    .enter-btn-more-box{
+        margin-right: 30px;
+    }
     .enter-content-right-box{
+        display: none;
+    }
+    .enter-content-vod-box::after{
         display: none;
     }
     .sports-btn-more-box{
         margin-right: 30px;
     }
     .enter-content-vod-box > a > img{
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
     .weekly-card-box-title > p{
         height: 70px;
