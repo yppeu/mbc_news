@@ -1959,6 +1959,7 @@ nav{
     }
     .m-news-rank1{
         display: block;
+        font-weight: 400 !important;
     }
     .pc-news-rank1{
         display: none;
@@ -1967,9 +1968,30 @@ nav{
         padding: 0;
         margin-bottom: 20px;
     }
+    .news-rank-card-left-list > a > p{
+        padding-bottom: 6px;
+        font-size: 16px;
+    }
+    .news-rank-card-left-list > a > img{
+        border-bottom: 1px solid #f1f1f1;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .news-rank-card-right-list > a{
+        border-bottom: 1px solid #f1f1f1;
+        margin-bottom: 6px;
+    }
+    .m-news-rank1,
+    .news-rank-card-right-list > a > span{
+        padding-bottom: 6px;
+    }
+    .news-rank-card-right-list > a > p{
+        font-size: 16px;
+    }
     .mbig-title-box > h2,
     .news-rank-title-box > h2,
-    .ai-pick-title-box > h3{
+    .ai-pick-title-box > h3,
+    .sports-title-box > h2{
         width: 50%;
         padding: 23px 20px 15px;
     }
@@ -2014,12 +2036,22 @@ nav{
     .news-rank-card-left-list > a > img{
         width: 100%;
         height: 100%;
-        margin-bottom: 30px;
     }
     .news-rank-card-left-list,
     .sports-content-left-box,
     .enter-content-left-box{
         margin-right: 0;
+    }
+    .section6 > .container-wrap{
+        width: 100%;
+        padding: 0;
+    }
+    .sports-title-box{
+        padding: 0;
+    }
+    .sports-content-vod-box > a > img{
+        width: 90%;
+        margin: auto;
     }
     .sports-left-box,
     .enter-left-box{
@@ -2029,11 +2061,12 @@ nav{
     .enter-content-left-box{
         margin-bottom: 10px;
     }
-    .sports-content-right-box,
     .enter-content-right-box{
         display: none;
     }
-    .sports-content-vod-box > a > img,
+    .sports-btn-more-box{
+        margin-right: 30px;
+    }
     .enter-content-vod-box > a > img{
         width: 100%;
     }
