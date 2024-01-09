@@ -18,7 +18,8 @@ body{
 .m-gnb,
 .m-nav,
 .m-headline-onair,
-.m-ad{
+.m-ad,
+.mbig-pick-card-box:last-child{
     display: none;
 }
 header{
@@ -1926,11 +1927,49 @@ nav{
         width: 100%;
         border-radius: 5px;
     }
+    .mbig-pick-card-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mbig-pick-card-box{
+        width: 43%;
+    }
+    .mbig-pick-card-box:nth-child(2),
+    .mbig-pick-card-box:nth-child(4){
+        margin-right: 0;
+    }
+    .mbig-pick-card-box:last-child{
+        display: block;
+    }
     .section4{
         display: none;
     }
     .section5 > .container-wrap{
+        width: 100%;
         padding-top: 0;
+    }
+    .news-rank-title-box{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .mbig-title-box > h2,
+    .news-rank-title-box > h2{
+        width: 50%;
+        padding: 23px 20px 15px;
+    }
+    .news-rank-content-box{
+        width: 90%;
+        margin: auto;
+    }
+    .news-rank-left-box{
+        margin-right: 0;
+    }
+    .news-rank-tab-list > ul > li{
+        font-size: 13px;
+        padding: 0 10px;
+    }
+    .news-rank-tab-list > ul > li:first-child > a{
+        color: #4664e6;
     }
     .ai-pick-left-box,
     .mbig-left-box{
@@ -1950,9 +1989,6 @@ nav{
     }
     .timeline-bore-box{
         display: none;
-    }
-    .news-rank-tab-list > ul > li{
-        font-size: 16px;
     }
     .news-rank-content-box,
     .sports-content-wrap,
