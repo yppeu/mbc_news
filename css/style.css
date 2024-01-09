@@ -14,8 +14,10 @@ body{
 
 
 /* header */
+/* 모바일 */
 .m-gnb,
-.m-nav{
+.m-nav,
+.m-headline-onair{
     display: none;
 }
 header{
@@ -1784,9 +1786,14 @@ nav{
         display: block;
         width: 100%;
         background: #e3e3e3;
+        padding: 6px 33px;
+        box-sizing: border-box;
     }
     .category-list{
         justify-content: center;
+    }
+    .category-list > li{
+        font-size: 14px;
     }
     .category-list > li:first-child{
         font-weight: 600;
@@ -1805,10 +1812,54 @@ nav{
         margin-bottom: 0;
     }
     .section1 > .container-wrap{
+        padding: 0;
+    }
+    .m-headline-onair{
+        display: block;
+        padding: 0 18px;
+        padding-top: 8px;
+        padding-bottom: 4px
+    }
+    .m-headline-onair > .wrapper{
+        width: 100%;
+        height: 46px;
+        padding: 12px;
+        background-color: #a4ceff;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 23px;
+        vertical-align: middle;
+        border-radius: 5px;
+    }
+    .m-headline-onair > .wrapper > a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #000041;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .m-headline-onair > .wrapper > a > span:first-child{
+        font-size: 16px;
+        color: #1e3f8e;
+    }
+    .m-headline-onair > .wrapper > a > span:last-child{
+        font-size: 12px;
+        width: 47px;
+        height: 16px;
+        line-height: 15px;
+        color: #aaaaaa;
+        border-radius: 3px;
+        background: #3d3d3d;
+    }
+    .news-top-left-text-box{
+        width: 100%;
         padding-bottom: 0;
     }
     .news-top-left-text-box > h2 {
-        font-size: 22.5px;
+        font-size: 20px;
+        letter-spacing: 0;
     }
     .news-top-left-text-box > h2{
         border-bottom: none;
