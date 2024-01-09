@@ -19,7 +19,8 @@ body{
 .m-nav,
 .m-headline-onair,
 .m-ad,
-.mbig-pick-card-box:last-child{
+.mbig-pick-card-box:last-child,
+.m-news-rank1{
     display: none;
 }
 header{
@@ -1855,6 +1856,13 @@ nav{
         border-radius: 3px;
         background: #3d3d3d;
     }
+    .ai-pick-card-box:not(:last-child){
+        margin-right: 16px;
+    }
+    .ai-pick-card-wrap{
+        width: 90%;
+        margin: auto;
+    }
     .news-top-box{
         border: none;
         padding-bottom: 0;
@@ -1915,6 +1923,7 @@ nav{
         padding-bottom: 0;
     }
     .section2 > .container-wrap{
+        width: 100%;
         padding: 0;
     }
     .section3 > .container-wrap{
@@ -1948,12 +1957,19 @@ nav{
         width: 100%;
         padding-top: 0;
     }
+    .m-news-rank1{
+        display: block;
+    }
+    .pc-news-rank1{
+        display: none;
+    }
     .news-rank-title-box{
         padding: 0;
         margin-bottom: 20px;
     }
     .mbig-title-box > h2,
-    .news-rank-title-box > h2{
+    .news-rank-title-box > h2,
+    .ai-pick-title-box > h3{
         width: 50%;
         padding: 23px 20px 15px;
     }
