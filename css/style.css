@@ -1778,7 +1778,7 @@ nav{
         width: 40px;
     }
     nav{
-        padding: 6px 0;
+        padding: 4px 0;
     }
     .m-nav{
         display: block;
@@ -1796,6 +1796,10 @@ nav{
     }
     .category-list > li:not(:last-child)::after{
         display: none;
+    }
+    .category-list > li:first-child::before{
+        background:#E3174F;
+        bottom: -6px;
     }
     .section1{
         margin-bottom: 0;
