@@ -2312,6 +2312,38 @@ nav{
         background-size: contain;
         z-index: 100;
     }
+    /* section2 */
+    .section2{
+        padding-bottom: 6px;
+        background-color:#fff;
+    }
+    .ai-pick-title-box{
+        margin-bottom: 10px;
+    }
+    .ai-pick-card-wrap{
+        flex-direction: column;
+    }
+    .ai-pick-card-box{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .ai-pick-card-box > a{
+        display: flex;
+        flex-direction: row;
+    }
+    .ai-pick-card-box > a > p{
+        height: 60px;
+    }
+    .ai-pick-card-box > a > img{
+        width: 120px;
+        height: 67px;
+        margin-right: 16px;
+    }
+    .ai-pick-card-box > a > p{
+        font-weight: 400;
+    }
     .ai-pick-num-wrap,
     .mbig-pick-num-wrap,
     .news-rank-tab-list,
