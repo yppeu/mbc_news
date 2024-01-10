@@ -23,7 +23,8 @@ body{
 .mbig-pick-card-box:last-child,
 .m-news-rank1,
 .m-plus,
-.m-f-bottom{
+.m-f-bottom,
+.m-f-top{
     display: none;
 }
 header{
@@ -2187,6 +2188,7 @@ nav{
         white-space: initial;
     }
     .hot-news-card-text-box > p{
+        font-size: 16px;
         color: #333;
         width: 100%;
         height: 50px;
@@ -2261,6 +2263,53 @@ nav{
         font-size: 14px;
         color: #1e1e1e;
         letter-spacing: -1px;
+    }
+    .m-f-top{
+        display: block;
+    }
+    .m-f-top,
+    .font-size-wrap,
+    .btn-font,
+    .btn-gotop{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .m-f-top{
+        justify-content: space-between;
+        padding: 16px 16px 8.5px;
+    }
+    .btn-font{
+        width: 40px;
+        height: 28px;
+        border: 1px solid #ddd;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .btn-font > span{
+        margin-right: 1px;
+    }
+    .btn-font > i{
+        font-weight: 500;
+    }
+    .btn-font:first-child > i{
+        font-size: 20px;
+    }
+    .btn-font:last-child > i{
+        font-size: 16px;
+    }
+    .btn-gotop > span{
+        font-size: 11px;
+        font-weight: 600;
+        margin-right: 6px;
+        letter-spacing: -0.6px;
+    }
+    .btn-gotop > .icon > img{
+        width: 16px;
+        height: 17px;
+        vertical-align: bottom;
     }
 }
 @media screen and (min-width:360px) and (max-width:567px){
