@@ -2400,7 +2400,7 @@ nav{
         font-style: italic;
         margin-right: 16px;
     }
-    /* section7 */
+    /* section6 */
     .sports-title-box{
         border: none;
         margin-bottom: 0;
@@ -2446,7 +2446,7 @@ nav{
         padding-bottom: 10px;
         padding-top: 6px;
     }
-    /* section08 */
+    /* section07 */
     .enter-btn-more-box > a:first-child{
         display: none;
     }
@@ -2456,6 +2456,33 @@ nav{
     .enter-btn-more-box > a:last-child > img{
         width: 10px;
         height: 16px;
+    }
+    .enter-title-box{
+        border: none;
+        margin-bottom: 0;
+    }
+    .enter-content-left-box > p,
+    .enter-content-right-box > ul >li{
+        font-size: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .enter-content-left-box{
+        margin-bottom: 0;
+    }
+    .enter-content-left-box > p{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .enter-content-right-box > ul >li:not(:last-child){
+        padding-bottom: 0;
+    }
+    .enter-content-left-box > p,
+    .enter-content-right-box > ul >li:not(:last-child),
+    .enter-content-right-box > ul >li:last-child{
+        padding-bottom: 6px;
+        padding-top: 4px;
     }
     .ai-pick-num-wrap,
     .mbig-pick-num-wrap,
