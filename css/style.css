@@ -1965,7 +1965,7 @@ nav{
         font-weight: 400 !important;
     }
     .pc-news-rank1{
-        display: none;
+        display: none !important;
     }
     .news-rank-title-box{
         padding: 0;
@@ -1990,7 +1990,7 @@ nav{
         padding-bottom: 6px;
     }
     .pc-news-rank1{
-        display: none;
+        display: none !important;
     }
     .news-rank-card-left-list > a > p{
         text-overflow: ellipsis;
@@ -2383,6 +2383,16 @@ nav{
         margin-bottom: 20px;
         font-size: 15px;
         font-weight: 400;
+    }
+    /* section5 */
+    .pc-news-rank1{
+        display: none !important;
+    }
+    .news-rank-card-left-list > a > p > span,
+    .news-rank-card-right-list > a > span{
+        font-size: 16px;
+        font-style: italic;
+        margin-right: 16px;
     }
     .ai-pick-num-wrap,
     .mbig-pick-num-wrap,
