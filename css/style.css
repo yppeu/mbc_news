@@ -21,7 +21,8 @@ body{
 .m-ad,
 .mbig-pick-card-box:last-child,
 .m-news-rank1,
-.m-plus{
+.m-plus,
+.m-f-bottom{
     display: none;
 }
 header{
@@ -2134,6 +2135,9 @@ nav{
         width: 100%;
         padding-top: 0;
     }
+    .hot-news-content-wrap{
+        justify-content: center;
+    }
     .hot-news-dable-box{
         margin-right: 30px;
     }
@@ -2144,10 +2148,81 @@ nav{
     .hot-news-card-box:nth-child(2){
         display: block;
     }
+    .hot-news-card-box{
+        width: 44%;
+        min-height: 100%;
+    }
     .hot-news-card-box > img{
         width: 100%;
+        height: auto;
     }
-    .footer-copyright-text-box > p{
-        font-size: 16.5px;
+    .hot-news-card-text-box > p{
+        width: 100%;
+        white-space: initial;
+    }
+    .hot-news-card-text-box > p > br{
+        display: none;
+    }
+    .footer-title-wrap,
+    .footer-copyright-wrap{
+        display: none;
+    }
+    nav{
+        border: none;
+        box-shadow:none;
+    }
+    .m-f-bottom{
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-top: 1px solid #f1f1f1;
+
+    }
+    .f_sns{
+        margin-bottom: 30px;
+    }
+    .f_sns > ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .f_sns > ul > li > a > img{
+        max-width: 100%;
+    }
+    .f_sns > ul > li:not(:last-child){
+        margin-right: 10px;
+    }
+    .m-f-nav{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .m-f-nav > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .m-f-nav > ul > li:nth-child(2),
+    .m-f-nav > ul > li:nth-child(3){
+        padding-left: 12px;
+        margin: 0 0 5.5px 12px;
+        background: url(../img/line.jpg) no-repeat 0 50%;
+    }
+    .m-f-nav > ul > li > a{
+        font-size: 14px;
+        color: #5b5f72;
+        letter-spacing: -1px;
+    }
+    .m-f-nav > span{
+        font-size: 14px;
+        color: #1e1e1e;
+        letter-spacing: -1px;
+    }
+    .m-f-copyright{
+        text-align: center;
+        font-size: 14px;
+        color: #1e1e1e;
+        letter-spacing: -1px;
     }
 }
