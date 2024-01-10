@@ -1804,7 +1804,7 @@ nav{
         font-weight: 600;
     }
     .category-list > li:not(:last-child){
-        margin-right: 13px;
+        margin-right: 12px;
     }
     .category-list > li:not(:last-child)::after{
         display: none;
@@ -2224,5 +2224,39 @@ nav{
         font-size: 14px;
         color: #1e1e1e;
         letter-spacing: -1px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:567px){
+    .international,
+    .economy,
+    .sports,
+    .enter{
+        display: none;
+    }
+    .m-nav{
+        padding: 6px 10px;
+    }
+    .category-list > li{
+        font-weight: 500;
+    }
+    .category-list > li:not(:last-child){
+        margin-right: 20px;
+    }
+    .ai-pick-num-wrap,
+    .mbig-pick-num-wrap,
+    .news-rank-tab-list,
+    .sports-btn-more-box,
+    .enter-btn-more-box,
+    .hot-news-dable-box{
+        margin-right: 16px;
+    }
+    .weekly-card-box:nth-child(2){
+        margin-right: 0;
+    }
+    .weekly-card-box:nth-child(5){
+        display: none;
+    }
+    .hot-news-content-wrap{
+        gap: 15px;
     }
 }
