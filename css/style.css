@@ -2236,6 +2236,26 @@ nav{
     .m-nav{
         padding: 6px 10px;
     }
+    .m-gnb > h1{
+        margin-right: 30px;
+    }
+    .btn_gnb > img{
+        margin-bottom: 3px;
+    }
+    /* section1 */
+    .m-headline-onair > .wrapper > a{
+        align-items: center;
+    }
+    .m-headline-onair > .wrapper > a > span:first-child{
+        font-size: 15px;
+    }
+    .m-headline-onair > .wrapper > a{
+        font-size: 17px;
+    }
+    .news-bottom-vod-card-box > p{
+        font-size: 15px;
+        height: 60px;
+    }
     .category-list > li{
         font-weight: 500;
     }
