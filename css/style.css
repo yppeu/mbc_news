@@ -1974,6 +1974,7 @@ nav{
     .news-rank-card-left-list > a > p{
         padding-bottom: 6px;
         font-size: 16px;
+        margin-top: 0;
     }
     .news-rank-card-left-list > a > img{
         border-bottom: 1px solid #f1f1f1;
@@ -1988,8 +1989,26 @@ nav{
     .news-rank-card-right-list > a > span{
         padding-bottom: 6px;
     }
+    .pc-news-rank1{
+        display: none;
+    }
+    .news-rank-card-left-list > a > p{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp:1;
+        -webkit-box-orient:vertical;
+    }
     .news-rank-card-right-list > a > p{
+        height: 10px;
         font-size: 16px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp:1;
+        -webkit-box-orient:vertical;
     }
     .mbig-title-box > h2,
     .news-rank-title-box > h2,
@@ -1998,7 +2017,7 @@ nav{
     .enter-title-box > h2,
     .hot-news-title-box > h2{
         width: 50%;
-        padding: 23px 20px 15px;
+        padding: 23px 20px 10px;
     }
     .news-rank-content-box{
         width: 90%;
