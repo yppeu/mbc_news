@@ -108,7 +108,7 @@ nav{
 .category-list > li:first-child::before{
     content: '';
     width: 100%;
-    height: 4px;
+    height: 3px;
     position: absolute;
     bottom: -23px;
     left: 0;
@@ -2243,6 +2243,10 @@ nav{
         margin-bottom: 3px;
     }
     /* section1 */
+    .news-top-left-text-box > h2{
+        font-size: 18px;
+        white-space: initial;
+    }
     .m-headline-onair > .wrapper > a{
         align-items: center;
     }
