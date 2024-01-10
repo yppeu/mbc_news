@@ -20,7 +20,8 @@ body{
 .m-headline-onair,
 .m-ad,
 .mbig-pick-card-box:last-child,
-.m-news-rank1{
+.m-news-rank1,
+.m-plus{
     display: none;
 }
 header{
@@ -1992,7 +1993,8 @@ nav{
     .news-rank-title-box > h2,
     .ai-pick-title-box > h3,
     .sports-title-box > h2,
-    .enter-title-box > h2{
+    .enter-title-box > h2,
+    .hot-news-title-box > h2{
         width: 50%;
         padding: 23px 20px 15px;
     }
@@ -2043,6 +2045,9 @@ nav{
     .enter-content-left-box{
         margin-right: 0;
     }
+    .m-plus{
+        display: none;
+    }
     .section6{
         padding-bottom: 0;
     }
@@ -2079,21 +2084,34 @@ nav{
     .enter-content-left-box{
         margin-bottom: 10px;
     }
-    .section7{
-        padding-bottom: 0;
-    }
     .section7 > .container-wrap{
         width: 100%;
         padding: 0;
+    }
+    .enter-content-left-box > p{
+        font-size: 16px;
+        font-weight: 400;
+        width: 90%;
+        margin: auto;
+        border-bottom: 1px solid #f1f1f1;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+    }
+    .enter-content-right-box{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .enter-content-right-box > ul >li{
+        border-bottom: 1px solid #f1f1f1;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
     }
     .enter-title-box{
         padding: 0;
     }
     .enter-btn-more-box{
         margin-right: 30px;
-    }
-    .enter-content-right-box{
-        display: none;
     }
     .enter-content-vod-box::after{
         display: none;
@@ -2104,9 +2122,30 @@ nav{
     .enter-content-vod-box > a > img{
         width: 90%;
         margin: auto;
+        margin-bottom: 20px;
+    }
+    .section8 > .container-wrap{
+        padding-top: 0;
     }
     .weekly-card-box-title > p{
         height: 70px;
+    }
+    .section9 > .container-wrap{
+        width: 100%;
+        padding-top: 0;
+    }
+    .hot-news-dable-box{
+        margin-right: 30px;
+    }
+    .hot-news-card-box{
+        display: none;
+    }
+    .hot-news-card-box:nth-child(1),
+    .hot-news-card-box:nth-child(2){
+        display: block;
+    }
+    .hot-news-card-box > img{
+        width: 100%;
     }
     .footer-copyright-text-box > p{
         font-size: 16.5px;
