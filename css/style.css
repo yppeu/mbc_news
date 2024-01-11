@@ -2417,6 +2417,9 @@ nav{
     .ai-pick-title-box{
         margin-bottom: 10px;
     }
+    .ai-pick-paging-box > a{
+        border: 1px solid #eaeaea;
+    }
     .ai-pick-card-wrap{
         flex-direction: column;
     }
@@ -2432,6 +2435,7 @@ nav{
     }
     .ai-pick-card-box > a > p{
         height: 60px;
+        font-size: 14px;
     }
     .ai-pick-card-box > a > img{
         width: 120px;
