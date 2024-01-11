@@ -2330,7 +2330,7 @@ nav{
         margin-right: 30px;
     }
     .btn_gnb > img{
-        margin-bottom: 3px;
+        margin-top: 9px;
     }
     /* section1 */
     .news-top-left-text-box > h2{
@@ -2342,16 +2342,21 @@ nav{
     }
     .m-headline-onair > .wrapper > a > span:first-child{
         font-size: 15px;
+        letter-spacing: 0;
     }
     .m-headline-onair > .wrapper > a{
         font-size: 17px;
+        letter-spacing: -0.3px;
+    }
+    .m-headline-onair > .wrapper > a > span:last-child{
+        font-size: 11px;
     }
     .m-headline-list{
         display: block;
         padding: 6px 20px;
     }
     .m-headline-list > li{
-        font-size: 15.5px;
+        font-size: 15px;
         font-weight: 400;
         color: #1e1e1e;
         letter-spacing: -1.3px;
@@ -2363,9 +2368,12 @@ nav{
         white-space: nowrap;
     }
     .news-bottom-vod-card-box > p{
-        font-size: 16px;
+        font-size: 14px;
         height: 60px;
         font-weight: 400;
+    }
+    .news-bottom-wrap{
+        margin-top: 3px;
     }
     .category-list > li{
         font-weight: 500;
