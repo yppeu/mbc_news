@@ -1600,8 +1600,17 @@ nav{
     }
     .hashtag,
     .category-more-box,
-    .section4{
+    .section4,
+    .news-plus-wrap,
+    .sports-right-box,
+    .enter-right-box,
+    .weekly-card-box:last-child,
+    .footer-title-wrap{
         display: none;
+    }
+    .hot-news-content-wrap{
+        justify-content: flex-start;
+        gap: 18px;
     }
 }
 @media screen and (max-width:992px){
