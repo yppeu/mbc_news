@@ -1432,15 +1432,48 @@ nav{
 
 /* 반응형 */
 @media screen and (min-width:1200px) and (max-width:1400px){
+    .container-wrap{
+        padding: 30px 60px 60px;
+    }
     .nav-title-box > h1 {
-        margin-right: 720px;
+        margin-right: 856px;
+    }
+    .sns-wrap{
+        display: none;
+    }
+    .login-wrap > ul > li:nth-child(3),
+    .login-wrap > ul > li:nth-child(4),
+    .login-wrap > ul > li:nth-child(5){
+        display: none;
     }
     .hashtag > a{
         margin-left: 0;
+        margin-left: 130px;
     }
     /* section1 */
+    .news-bottom-vod-card-box > a > img{
+        width: 100%;
+    }
     .news-bottom-vod-card-box > p{
-        font-size: 18px;
+        font-size: 23px;
+    }
+    .news-top-box{
+        flex-direction: column;
+    }
+    .news-top-left-box{
+        margin-right: 0;
+    }
+    .news-top-left-img-box > img{
+        width: 100%;
+    }
+    .news-top-right-wrap{
+        display: none;
+    }
+    .news-bottom-left-box{
+        margin-right: 0;
+    }
+    .news-bottom-right-box{
+        display: none;
     }
     /* section3 */
     .mbig-right-box{
@@ -1504,6 +1537,7 @@ nav{
     .enter-left-box{
         margin-right: 20px;
     }
+    /* section7 */
     .enter-right-box{
         box-sizing:initial ;
     }
@@ -1528,6 +1562,7 @@ nav{
     .hot-news-card-box:nth-child(10){
         margin-right: 438px;
     }
+    /* footer */
     .footer-title-box > ul > li{
         padding: 16px 46px;
         font-size: 19px;
@@ -1539,52 +1574,12 @@ nav{
     .footer-list-box > li{
         font-size: 16px;
     }
-    .container-wrap{
-        padding: 30px 60px 60px;
-    }
     .footer-list-box{
         padding: 10px 0 10px 47px;
     }
     .footer-copyright-text-box > p{
         font-size: 16px;
         line-height: 33px;
-    }
-    .nav-title-box > h1 {
-        margin-right: 856px;
-    }
-    .sns-wrap{
-        display: none;
-    }
-    .login-wrap > ul > li:nth-child(3),
-    .login-wrap > ul > li:nth-child(4),
-    .login-wrap > ul > li:nth-child(5){
-        display: none;
-    }
-    .hashtag > a{
-        margin-left: 130px;
-    }
-    .news-top-box{
-        flex-direction: column;
-    }
-    .news-top-left-box{
-        margin-right: 0;
-    }
-    .news-top-left-img-box > img{
-        width: 100%;
-    }
-    .news-top-right-wrap{
-        display: none;
-    }
-    .news-bottom-left-box{
-        margin-right: 0;
-    }
-    .news-bottom-right-box{
-        display: none;
-    }
-    .news-bottom-vod-card-box > a > img,
-    .news-bottom-vod-card-box > p{
-        width: 100%;
-        font-size: 23px;
     }
 }
 @media screen and (min-width:991px) and (max-width:1119px){
