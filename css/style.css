@@ -2150,7 +2150,7 @@ nav{
         margin-right: 0;
     }
 }
-@media screen and (min-width:567px) and (max-width:900px){
+@media screen and (min-width:620px) and (max-width:900px){
     /* 공통 */
     .sports,
     .enter,
@@ -2181,6 +2181,9 @@ nav{
     }
     .category-list > li:not(:last-child){
         margin-right: 26px;
+    }
+    .economy::after{
+        display: none;
     }
     .news-top-left-text-box{
         width: 100%;
@@ -2448,6 +2451,7 @@ nav{
     }
     /* footer */
     .footer-copyright-wrap > .container-wrap{
+        flex-direction: column;
         padding: 30px 60px 60px;
         align-items: flex-end;
     }
@@ -2473,12 +2477,15 @@ nav{
         margin-right: 0;
     }
 }
-@media screen and (min-width:360px) and (max-width:566px){
+@media screen and (min-width:360px) and (max-width:620px){
+    /* nav */
+    nav,
     .pc-gnb,
     .nav-title-box,
     .enter,
     .category-more-box,
-    .hashtag{
+    .hashtag,
+    .category-list{
         display: none;
     }
     header{
