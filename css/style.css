@@ -1591,6 +1591,19 @@ nav{
         line-height: 33px;
     }
 }
+@media screen and (min-width:991px) and (max-width:1119px){
+    .nav-title-box > h1{
+        margin-right: 500px;
+    }
+    .category-list{
+        margin-right: 0;
+    }
+    .hashtag,
+    .category-more-box,
+    .section4{
+        display: none;
+    }
+}
 @media screen and (max-width:992px){
     .nav-title-box > h1{
         margin-right: 450px;
