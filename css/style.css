@@ -1495,6 +1495,9 @@ nav{
         font-size: 14px;
     }
     /* section4 */
+    .section4{
+        padding-bottom: 0;
+    }
     .timeline-content-wrap{
         justify-content: center;
     }
@@ -1519,7 +1522,7 @@ nav{
         line-height: 30px;
     }
     .timeline-card-box:not(:last-child){
-        margin-right: 0px;
+        margin-right: -5px;
     }
     .time{
         font-size: 16px;
