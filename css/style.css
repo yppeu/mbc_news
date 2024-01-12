@@ -26,7 +26,8 @@ body{
 .m-f-bottom,
 .m-f-top,
 .m-ai-pick,
-.sports-content-right-box > ul > li > a > strong{
+.sports-content-right-box > ul > li > a > strong,
+.m-enter-content-right-box{
     display: none;
 }
 header{
@@ -3263,6 +3264,7 @@ nav{
     }
     .enter-btn-more-box > a:last-child{
         display: block;
+        margin-right: 10px;
     }
     .enter-btn-more-box > a:last-child > img{
         width: 10px;
@@ -3272,28 +3274,34 @@ nav{
         border: none;
         margin-bottom: 0;
     }
-    .enter-content-left-box > p,
-    .enter-content-right-box > ul >li{
+    .enter-content-right-box{
+        display: none;
+    }
+    .m-enter-content-right-box{
+        display: block;
+        width: 90%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    .m-enter-content-right-box > ul > li{
+        display: flex;
+        flex-direction: row;
+        padding: 8px 0;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .m-enter-content-right-box > ul > li > a{
+        width: 100%;
         font-size: 16px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+        letter-spacing: -1px;
+        margin-right: 20px;
     }
-    .enter-content-left-box{
-        margin-bottom: 0;
+    .m-enter-content-right-box > ul > li > img{
+        width: 149px;
+        height: auto;
+        border-radius: 5px;
     }
-    .enter-content-left-box > p{
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    .enter-content-right-box > ul >li:not(:last-child){
-        padding-bottom: 0;
-    }
-    .enter-content-left-box > p,
-    .enter-content-right-box > ul >li:not(:last-child),
-    .enter-content-right-box > ul >li:last-child{
-        padding-bottom: 6px;
-        padding-top: 4px;
+    .m-enter-content-right-box > ul > li:nth-child(3) > img{
+        background-size: cover;
     }
     .ai-pick-num-wrap,
     .mbig-pick-num-wrap,
@@ -3303,10 +3311,11 @@ nav{
     .hot-news-dable-box{
         margin-right: 16px;
     }
-    .weekly-card-box:nth-child(2){
-        margin-right: 0;
+    .enter-right-box{
+        display: none;
     }
-    .weekly-card-box:nth-child(5){
+    /* section8 */
+    .section8{
         display: none;
     }
     .hot-news-content-wrap{
