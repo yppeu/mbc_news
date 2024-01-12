@@ -2739,6 +2739,7 @@ nav{
     /* section3 */
     .section3 > .container-wrap{
         width: 100%;
+        padding: 30px 0 0;
     }
     .mbig-pick-card-box > a > p{
         height: 60px;
@@ -2760,8 +2761,7 @@ nav{
         font-size: 15px;
         font-weight: 400;
     }
-    /* section4 */
-    .section4{
+    .mbig-right-box{
         display: none;
     }
     .m-ad{
@@ -2785,8 +2785,13 @@ nav{
     .mbig-pick-card-box:last-child{
         display: block;
     }
+    /* section4 */
     .section4{
         display: none;
+    }
+    /* section5 */
+    .section5{
+        padding-top: 3px;
     }
     .section5 > .container-wrap{
         width: 100%;
@@ -2809,6 +2814,7 @@ nav{
         margin-top: 0;
     }
     .news-rank-card-left-list > a > img{
+        border-radius: 5px !important;
         border-bottom: 1px solid #f1f1f1;
         padding-bottom: 10px;
         margin-bottom: 10px;
@@ -2820,6 +2826,9 @@ nav{
     .m-news-rank1,
     .news-rank-card-right-list > a > span{
         padding-bottom: 6px;
+    }
+    .news-plus-wrap{
+        display: none;
     }
     .pc-news-rank1{
         display: none !important;
@@ -2842,8 +2851,10 @@ nav{
         -webkit-line-clamp:1;
         -webkit-box-orient:vertical;
     }
+    .news-rank-title-box > h2{
+        padding: 0 20px 0;
+    }
     .mbig-title-box > h2,
-    .news-rank-title-box > h2,
     .ai-pick-title-box > h3,
     .sports-title-box > h2,
     .enter-title-box > h2,
@@ -2861,6 +2872,9 @@ nav{
     .news-rank-tab-list > ul > li{
         font-size: 13px;
         padding: 0 10px;
+    }
+    .news-rank-tab-list > ul > li:first-child{
+        border: none;
     }
     .news-rank-tab-list > ul > li:first-child > a{
         color: #4664e6;
