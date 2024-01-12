@@ -1593,7 +1593,8 @@ nav{
     }
 }
 @media screen and (min-width:992px) and (max-width:1200px){
-    .container-wrap{
+    /* nav */
+    header > .container-wrap{
         padding: 30px 60px 60px;
     }
     .sns-wrap{
@@ -1839,23 +1840,33 @@ nav{
     }
 }
 @media screen and (min-width:767px) and (max-width:992px){
-    .category-more-box,
-    .enter,
-    .sports::after,
-    .news-top-left-text-box > p{
-        display: none;
+    /* nav */
+    .category-list > li:not(:last-child){
+        margin-right: 33px;
     }
-    news-top-left-text-box{
-        width: 100%;
+    .sports::after{
+        display: none;
     }
     .news-top-left-text-box > h2{
         font-size: 29px;
         border: none;
         padding-bottom: 0;
+    }    
+    .category-more-box{
+        display: block;
     }
     .sports-content-left-box,
     .enter-content-left-box{
         margin-right: 27px;
+    }
+    /* section1 */
+    .news-bottom-wrap{
+        width: 90%;
+        margin: auto;
+    }
+    .news-bottom-vod-card-box > p{
+        width: 100%;
+        font-size: 20px;
     }
     .hot-news-content-wrap{
         gap: 17px;
@@ -1875,18 +1886,6 @@ nav{
     .hashtag > a,
     .section4{
         display: none;
-    }
-    .ai-pick-wrap,
-    .news-top-wrap,
-    .news-bottom-wrap,
-    .mbig-wrap,
-    .timeline-wrap,
-    .news-rank-wrap,
-    .sports-content-wrap,
-    .enter-content-wrap,
-    .weekly-wrap,
-    .ai-pick-desk-img-box > img{
-        width: 100%;
     }
     .news-top-left-text-box{
         border-radius: 5px;
