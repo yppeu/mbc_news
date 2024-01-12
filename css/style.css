@@ -1876,8 +1876,78 @@ nav{
     }
     .ai-pick-card-box > a > p{
         width: 100%;
-        font-size: 20px;
+        font-size: 22px;
         height: initial;
+    }
+    /* section3 */
+    .mbig-left-box{
+        margin-right: 0;
+    }
+    .mbig-pick-card-box:nth-child(3){
+        margin-right: 0;
+    }
+    /* section5 */
+    .section5 > .container-wrap{
+        width: 90%;
+        margin: auto;
+        padding-top: 0;
+    }
+    .news-rank-card-left-list{
+        width: 100%;
+        margin-right: 0;
+    }
+    .news-rank-card-left-list > a > p{
+        line-height: 1.6;
+    }
+    .news-rank-card-left-list > a > img,
+    .pc-news-rank1{
+        width: 90%;
+    }
+    /* section6 */
+    .section6 > .container-wrap{
+        width: 90%;
+        margin: auto;
+        padding-top: 0;
+    }
+    .sports-content-left-box{
+        width: 100%;
+        margin-right: 20px !important;
+    }
+    .sports-content-left-box > p{
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .sports-content-right-box > ul >li{
+        font-size: 19px;
+    }
+    /* section7 */
+    .section7 > .container-wrap{
+        width: 90%;
+        margin: auto;
+        padding-top: 0;
+    }
+    .enter-content-left-box{
+        width: 100%;
+        margin-right: 20px !important;
+    }
+    .enter-content-left-box > p{
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    /* section8 */
+    .section8 > .container-wrap{
+        width: 90%;
+        margin: auto;
+        padding-top: 0;
+    }
+    .weekly-card-box:nth-child(3){
+        display: block !important;
+    }
+    /* section9 */
+    .section9 > .container-wrap{
+        width: 90%;
+        margin: auto;
+        padding-top: 0;
     }
     .hot-news-content-wrap{
         gap: 17px;
