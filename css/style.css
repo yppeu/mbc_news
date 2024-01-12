@@ -1855,6 +1855,12 @@ nav{
     .category-more-box{
         display: block;
     }
+    .category-list{
+        margin-right: 0;
+    }
+    .category-list > li{
+        font-size: 16.5px;
+    }
     .sports-content-left-box,
     .enter-content-left-box{
         margin-right: 27px;
@@ -1879,12 +1885,23 @@ nav{
         font-size: 22px;
         height: initial;
     }
+    .ai-pick-left-box{
+        margin-right: 0;
+    }
+    .ai-pick-right-box,
+    .mbig-right-box{
+        display: none;
+    }
     /* section3 */
     .mbig-left-box{
         margin-right: 0;
     }
     .mbig-pick-card-box:nth-child(3){
         margin-right: 0;
+    }
+    /* section4 */
+    .section4{
+        display: none;
     }
     /* section5 */
     .section5 > .container-wrap{
@@ -1898,6 +1915,12 @@ nav{
     }
     .news-rank-card-left-list > a > p{
         line-height: 1.6;
+    }
+    .news-top-left-text-box{
+        border-radius: 5px;
+    }
+    .news-bottom-vod-card-wrap{
+        margin-bottom: 30px;
     }
     .news-rank-card-left-list > a > img,
     .pc-news-rank1{
@@ -1958,38 +1981,11 @@ nav{
     .hot-news-card-box{
         margin-right: 0 !important;
     }
-    .category-list{
-        margin-right: 0;
+    .hot-news-content-wrap{
+        justify-content: flex-start;
     }
-    .category-list > li{
-        font-size: 16.5px;
-    }
-    .hashtag > a,
-    .section4{
-        display: none;
-    }
-    .news-top-left-text-box{
-        border-radius: 5px;
-    }
-    .news-bottom-vod-card-wrap{
-        margin-bottom: 30px;
-    }
-    .ai-pick-left-box{
-        margin-right: 0;
-    }
-    .ai-pick-right-box,
-    .mbig-right-box{
-        display: none;
-    }
-    .timeline-card-box:not(:last-child){
-        margin-right: 40px;
-    }
-    .timeline-content-wrap{
-        margin-top: 40px;
-        justify-content: center;
-    }
-    .timeline-card-box{
-        margin-bottom: 60px;
+    .hot-news-card-box > img{
+        width: 210px;
     }
     .news-plus-wrap,
     .sports-right-box,
@@ -2008,12 +2004,7 @@ nav{
     .enter-content-left-box{
         margin-right: 60px;
     }
-    .hot-news-content-wrap{
-        justify-content: flex-start;
-    }
-    .hot-news-card-box > img{
-        width: 210px;
-    }
+    /* footer */
     .footer-title-wrap{
         display: none;
     }
