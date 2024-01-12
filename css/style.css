@@ -1709,6 +1709,17 @@ nav{
     .enter-left-box{
         margin-right: 20px;
     }
+    /* seciton6 */
+    .sports-left-box{
+        width: 100%;
+        margin-right: 0;
+    }
+    .sports-content-left-box{
+        margin-right: 60px;
+    }
+    .sports-content-vod-box > a > img{
+        width: 100%;
+    }
     /* section7 */
     .enter-right-box{
         box-sizing:initial ;
