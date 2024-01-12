@@ -1623,10 +1623,13 @@ nav{
     .news-top-left-text-box > p{
         display: none;
     }
+    news-top-left-text-box{
+        width: 100%;
+    }
     .news-top-left-text-box > h2{
         font-size: 29px;
         border: none;
-        margin-bottom: 0;
+        padding-bottom: 0;
     }
     .sports-content-left-box,
     .enter-content-left-box{
@@ -1811,7 +1814,12 @@ nav{
     }
 }
 @media screen and (min-width:567px) and (max-width:767px){
-
+    .news-plus-wrap,
+    .sports-right-box,
+    .enter-right-box,
+    .footer-title-wrap{
+        display: none;
+    }
 }
 @media screen and (max-width:568px){
     .pc-gnb,
