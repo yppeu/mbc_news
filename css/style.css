@@ -2608,21 +2608,23 @@ nav{
     .news-top-left-text-box > p{
         display: none;
     }
-    .news-bottom-left-box{
-        padding: 0 18px;
-    }
-    .news-bottom-vod-card-wrap{
-        margin-bottom: 0;
-    }
-    .news-bottom-vod-card-box > p{
-        font-size: 20px;
-    }
     .news-bottom-vod-card-box:nth-child(3),
+    .news-bottom-vod-card-box:nth-child(4){
+        display: none;
+    }
     .news-bottom-vod-card-box:nth-child(2){
         margin-right: 0;
     }
-    .news-bottom-vod-card-box:nth-child(3),
-    .news-bottom-vod-card-box:last-child,
+    .news-bottom-vod-card-box > p{
+        width: 80%;
+    }
+    .news-bottom-vod-card-box > a > img{
+        width: 100%;
+    }
+    .news-top-right-wrap{
+        display: none;
+    }
+    .news-bottom-contents-wrap,
     .kakao-banner-box{
         display: none;
     }
