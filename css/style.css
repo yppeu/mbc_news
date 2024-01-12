@@ -1613,7 +1613,34 @@ nav{
         gap: 18px;
     }
 }
-@media screen and (max-width:992px){
+@media screen and (min-width:767px) and (max-width:991px){
+    .nav-title-box > h1{
+        margin-right: 322px;
+    }
+    .category-more-box,
+    .enter,
+    .sports::after,
+    .news-top-left-text-box > p{
+        display: none;
+    }
+    .news-top-left-text-box > h2{
+        font-size: 29px;
+        border: none;
+        margin-bottom: 0;
+    }
+    .sports-content-left-box,
+    .enter-content-left-box{
+        margin-right: 27px;
+    }
+    .hot-news-content-wrap{
+        gap: 17px;
+    }
+    .hot-news-warp{
+        width: 100%;
+    }
+    .hot-news-card-box{
+        margin-right: 0 !important;
+    }
     .nav-title-box > h1{
         margin-right: 450px;
     }
@@ -1623,7 +1650,8 @@ nav{
     .category-list > li{
         font-size: 16.5px;
     }
-    .hashtag > a{
+    .hashtag > a,
+    .section4{
         display: none;
     }
     .ai-pick-wrap,
@@ -1685,9 +1713,6 @@ nav{
     .hot-news-content-wrap{
         justify-content: flex-start;
     }
-    .hot-news-card-box{
-        margin-right: 30px !important;
-    }
     .hot-news-card-box > img{
         width: 210px;
     }
@@ -1727,7 +1752,6 @@ nav{
     }
     .section2 > .container-wrap,
     .section3 > .container-wrap,
-    .section4 > .container-wrap,
     .section5 > .container-wrap,
     .section6 > .container-wrap,
     .section7 > .container-wrap,
@@ -1736,8 +1760,6 @@ nav{
         width: 90%;
         padding: 30px 0 60px;
     }
-    .section4,
-    .section4 > .container-wrap,
     .section5 > .container-wrap,
     .section6 > .container-wrap{
         padding-bottom: 0;
@@ -1745,6 +1767,9 @@ nav{
     .section8 > .container-wrap,
     .section9 > .container-wrap{
         padding-bottom: 30px;
+    }
+    .section4{
+        display: none;
     }
     .mbig-left-box{
         margin-right: 0;
@@ -1787,6 +1812,9 @@ nav{
     .footer-info-sns-box{
         margin-top: 60px;
     }
+}
+@media screen and (min-width:567px) and (max-width:767px){
+
 }
 @media screen and (max-width:568px){
     .pc-gnb,
@@ -1947,7 +1975,6 @@ nav{
     }
     .section2 > .container-wrap, 
     .section3 > .container-wrap, 
-    .section4 > .container-wrap, 
     .section5 > .container-wrap, 
     .section6 > .container-wrap, 
     .section7 > .container-wrap, 
@@ -1964,6 +1991,9 @@ nav{
     }
     .section3 > .container-wrap{
         width: 100%;
+    }
+    .section4{
+        display: none;
     }
     .m-ad{
         display: block;
