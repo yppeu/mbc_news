@@ -1634,6 +1634,9 @@ nav{
         display: none;
     }
     /* section3 */
+    .section3 > .container-wrap{
+        padding: 30px 60px 0px;
+    }
     .mbig-right-box{
         width: 86%;
         margin-top: 70px;
@@ -1687,17 +1690,26 @@ nav{
         margin-right: 0;
     }
     .news-rank-card-left-list{
-        margin-right: 60px;
+        margin-right: 30px;
     }
     .news-rank-card-left-list > a > img{
         height: auto;
     }
+    .news-rank-card-left-list > a > p > span{
+        font-size: 23px;
+        font-style: italic;
+    }
     .news-rank-card-left-list > a > p,
-    .news-rank-card-right-list > a > p,
-    .sports-content-left-box > p,
-    .sports-content-right-box > ul >li,
-    .enter-content-right-box > ul >li{
-        font-size: 20px;
+    .news-rank-card-right-list > a > p{
+        font-size: 21px;
+    }
+    .news-rank-card-right-list{
+        margin-top: 0 !important;
+    }
+    .news-rank-card-right-list > a > span{
+        font-size: 23px;
+        font-style: italic;
+        margin-right: 10px;
     }
     .sports-content-right-box > ul >li:not(:last-child),
     .news-rank-card-right-list > a > p,
@@ -1715,14 +1727,42 @@ nav{
         margin-right: 0;
     }
     .sports-content-left-box{
-        margin-right: 60px;
+        margin-right: 30px;
     }
     .sports-content-vod-box > a > img{
         width: 100%;
     }
+    .sports-content-left-box > p{
+        font-size: 22px;
+    }
+    .sports-content-right-box > ul >li{
+        font-size: 21px;
+    }
+    .sports-content-right-box > ul >li:not(:last-child){
+        padding-bottom: 23px;
+    }
     /* section7 */
+    .enter-left-box{
+        width: 100%;
+        margin-right: 0;
+    }
+    .enter-content-left-box{
+        margin-right: 30px;
+    }
+    .enter-content-left-box > p{
+        font-size: 21px;
+    }
+    .enter-content-vod-box > a > img{
+        width: 100%;
+    }
     .enter-right-box{
         box-sizing:initial ;
+    }
+    .enter-content-right-box > ul >li{
+        font-size: 21px;
+    }
+    .enter-content-right-box > ul >li:not(:last-child){
+        padding-bottom: 23px;
     }
     .enter-banner-bottom-box{
         bottom: 38px;
