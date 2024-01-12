@@ -35,12 +35,17 @@ header{
 .nav-title-box{
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content:space-between;
     border-bottom: 1px solid #e3e3e3;
     padding: 23px 0;
 }
-.nav-title-box > h1{
-    margin-right: 760px;
+.nav-title-box > .container-wrap{
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .login-wrap > ul{
     display: flex;
@@ -1587,7 +1592,7 @@ nav{
         line-height: 33px;
     }
 }
-@media screen and (min-width:991px) and (max-width:1199px){
+@media screen and (min-width:992px) and (max-width:1200px){
     .container-wrap{
         padding: 30px 60px 60px;
     }
@@ -1602,10 +1607,13 @@ nav{
     .category-list{
         margin-right: 0;
     }
-    .category-list > li:not(:last-child){
+    /* .category-list > li:not(:last-child){
         margin-right: 52px;
-    }
+    } */
     .hashtag{
+        display: block;
+    }
+    .enter::after{
         display: none;
     }
     /* section1 */
@@ -1830,10 +1838,7 @@ nav{
         gap: 18px;
     }
 }
-@media screen and (min-width:767px) and (max-width:990px){
-    .nav-title-box > h1{
-        margin-right: 322px;
-    }
+@media screen and (min-width:767px) and (max-width:992px){
     .category-more-box,
     .enter,
     .sports::after,
@@ -1948,9 +1953,6 @@ nav{
     } 
 }
 @media screen and (min-width:567px) and (max-width:766px){
-    .nav-title-box > h1 {
-        margin-right: 340px;
-    }
     nav{
         display: none;
     }
