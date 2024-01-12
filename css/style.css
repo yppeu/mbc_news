@@ -1681,12 +1681,23 @@ nav{
         font-size: 16px;
         margin-top: 20px;
     }
+    /* seciton5 */
+    .news-rank-left-box{
+        width: 100%;
+        margin-right: 0;
+    }
+    .news-rank-card-left-list{
+        margin-right: 60px;
+    }
+    .news-rank-card-left-list > a > img{
+        height: auto;
+    }
     .news-rank-card-left-list > a > p,
     .news-rank-card-right-list > a > p,
     .sports-content-left-box > p,
     .sports-content-right-box > ul >li,
     .enter-content-right-box > ul >li{
-        font-size: 17px;
+        font-size: 20px;
     }
     .sports-content-right-box > ul >li:not(:last-child),
     .news-rank-card-right-list > a > p,
