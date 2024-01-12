@@ -2477,7 +2477,7 @@ nav{
         margin-right: 0;
     }
 }
-@media screen and (min-width:360px) and (max-width:620px){
+@media screen and (min-width:500px) and (max-width:620px){
     /* nav */
     nav,
     .pc-gnb,
@@ -2485,7 +2485,9 @@ nav{
     .enter,
     .category-more-box,
     .hashtag,
-    .category-list{
+    .sns-wrap,
+    .sports,
+    .enter{
         display: none;
     }
     header{
@@ -2509,9 +2511,6 @@ nav{
     }
     .report > img{
         width: 40px;
-    }
-    nav{
-        padding: 4px 0;
     }
     .m-nav{
         display: block;
@@ -3030,15 +3029,6 @@ nav{
         width: 16px;
         height: 17px;
         vertical-align: bottom;
-    }
-    .international,
-    .economy,
-    .sports,
-    .enter{
-        display: none;
-    }
-    .m-nav{
-        padding: 6px 10px;
     }
     .m-gnb > h1{
         margin-right: 30px;
