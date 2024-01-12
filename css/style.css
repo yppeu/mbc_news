@@ -2624,6 +2624,13 @@ nav{
     .news-top-right-wrap{
         display: none;
     }
+    .news-bottom-wrap{
+        width: 90%;
+        margin: auto;
+    }
+    .news-bottom-left-box{
+        margin-right: 0;
+    }
     .news-bottom-contents-wrap,
     .kakao-banner-box{
         display: none;
@@ -2637,6 +2644,7 @@ nav{
     .hot-news-title-box > h2{
         font-size: 20px;
     }
+    /* section2 */
     .section2 > .container-wrap, 
     .section3 > .container-wrap, 
     .section5 > .container-wrap, 
