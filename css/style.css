@@ -3327,6 +3327,7 @@ nav{
     nav,
     .pc-gnb,
     .nav-title-box,
+    .economy,
     .enter,
     .category-more-box,
     .hashtag,
@@ -3361,21 +3362,21 @@ nav{
         display: block;
         width: 100%;
         background: #e3e3e3;
-        padding: 6px 33px;
+        padding: 6px 13px;
         box-sizing: border-box;
     }
     .category-list{
         justify-content: center;
     }
     .category-list > li{
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
     }
     .category-list > li:first-child{
         font-weight: 600;
     }
     .category-list > li:not(:last-child){
-        margin-right: 12px;
+        margin-right: 13px;
     }
     .category-list > li:not(:last-child)::after{
         display: none;
@@ -3383,9 +3384,6 @@ nav{
     .category-list > li:first-child::before{
         background:#E3174F;
         bottom: -6px;
-    }
-    .category-list > li:not(:last-child){
-        margin-right: 18px;
     }
     .news-bottom-vod-card-box:nth-child(1){
         position: relative;
