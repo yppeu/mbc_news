@@ -3557,7 +3557,7 @@ nav{
         -webkit-box-orient:vertical;
     }
     .news-rank-card-right-list > a > p{
-        height: 10px;
+        height: 7px;
         font-size: 16px;
         text-overflow: ellipsis;
         overflow: hidden;
@@ -3567,7 +3567,7 @@ nav{
         -webkit-box-orient:vertical;
     }
     .news-rank-title-box > h2{
-        padding: 0 20px 0;
+        padding: 0 0 0 20px;
     }
     .mbig-title-box > h2,
     .ai-pick-title-box > h3,
@@ -3585,7 +3585,7 @@ nav{
         margin-right: 0;
     }
     .news-rank-tab-list > ul > li{
-        font-size: 13px;
+        font-size: 12px;
         padding: 0 10px;
     }
     .news-rank-tab-list > ul > li:first-child{
@@ -4136,12 +4136,16 @@ nav{
         margin-right: 20px;
     }
     .m-enter-content-right-box > ul > li > img{
-        width: 149px;
+        width: 113px;
         height: auto;
         border-radius: 5px;
     }
-    .m-enter-content-right-box > ul > li:nth-child(3) > img{
-        background-size: cover;
+    .m-enter-content-right-box > ul > li{
+        position: relative;
+        width: 100%;
+        margin-bottom: 8px;
+        padding-bottom: 16px;
+        overflow: hidden;
     }
     .ai-pick-num-wrap,
     .mbig-pick-num-wrap,
