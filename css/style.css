@@ -16,6 +16,8 @@ body{
 /* header */
 /* 모바일 */
 .m-gnb,
+.btn-close,
+.fullscreen-menu,
 .m-nav,
 .m-headline-onair,
 .m-headline-list,
@@ -2506,9 +2508,6 @@ nav{
         justify-content: space-around;
         align-items: center;
     }
-    .btn_gnb > img{
-        width: 24px;
-    }
     .logo > a > img{
         width: 144px;
     }
@@ -3151,9 +3150,6 @@ nav{
         height: 17px;
         vertical-align: bottom;
     }
-    .m-gnb > h1{
-        margin-right: 30px;
-    }
     .btn_gnb > img{
         margin-top: 6px;
     }
@@ -3348,8 +3344,9 @@ nav{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        box-sizing: border-box;
     }
-    .btn_gnb > img{
+    .m-ham{
         width: 24px;
     }
     .logo > a > img{
@@ -3990,9 +3987,6 @@ nav{
         width: 16px;
         height: 17px;
         vertical-align: bottom;
-    }
-    .m-gnb > h1{
-        margin-right: 30px;
     }
     .btn_gnb > img{
         margin-top: 6px;
