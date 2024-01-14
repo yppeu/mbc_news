@@ -4106,6 +4106,10 @@ nav{
     .enter-content-left-box{
         margin-bottom: 10px;
     }
+    /* section7 */
+    .enter-content-wrap:first-child{
+        margin-top: 30px;
+    }
     .section7 > .container-wrap{
         width: 100%;
         padding: 0;
