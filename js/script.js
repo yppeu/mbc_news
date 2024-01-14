@@ -1,7 +1,17 @@
 $(document).ready(function () {
+
   //  스크롤 맨 위로
   $("#btn-gotop").click(function () {
     $("html, body").animate({ scrollTop: 0 }, "300");
+  });
+
+  // 햄버거 메뉴 누를 시 block
+  $('.m-ham>img').on('click', function(){
+      console.log('햄버거 메뉴 누를 시 block');
+      $('.fullscreen-menu').fadeIn();
+  });
+  $('.m-ham-close').on('click', function(){
+      $('.fullscreen-menu').hide();
   });
 
   let basicFont = 14; // 기본 폰트 크기를 12px로 지정

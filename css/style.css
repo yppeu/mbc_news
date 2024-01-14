@@ -2483,6 +2483,13 @@ nav{
     }
 }
 @media screen and (min-width:500px) and (max-width:620px){
+    /* 펼친 gnb 메뉴 */
+    .fullscreen-menu,
+    .m-ham-gnb,
+    .m-menu-top,
+    .menu-list-wrapper{
+        display: block;
+    }
     /* nav */
     nav,
     .pc-gnb,
@@ -2499,14 +2506,18 @@ nav{
         background-color: #000041;
         box-sizing: border-box;
     }
+    /* ---------------------------------------------
+    기존 M 메뉴 햄버거 gnb 
+    ---------------------------------------------*/
     .m-gnb{
         width: 100%;
         height: 55px;
         line-height: 55px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        box-sizing: border-box;
     }
     .logo > a > img{
         width: 144px;
@@ -2514,6 +2525,9 @@ nav{
     .report > img{
         width: 40px;
     }
+    /* ---------------------------------------------
+    기존 M 햄버거 메뉴
+    ---------------------------------------------*/
     .m-nav{
         display: block;
         width: 100%;
@@ -2521,6 +2535,144 @@ nav{
         padding: 6px 33px;
         box-sizing: border-box;
     }
+    /* ---------------------------------------------
+    펼쳐진 M 햄버거 메뉴
+    ---------------------------------------------*/
+    .btn-gnb-ham > a > img{
+        width: 18px;
+        height: 18px;
+    }
+    .fullscreen-menu{
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #fff;
+        z-index: 9999;
+        overflow-y: auto;
+    }
+    .m-ham-gnb{
+        width: 100%;
+        height: 55px;
+        line-height: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #000041;
+        padding: 0 46px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .m-menu-top{
+        padding: 17px 20px;
+        background-color: #e3e3e3;
+        color: #1e1e1e;
+    }
+    .tit{
+        letter-spacing: -1px;
+    }
+    .m-search{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .m-search > input{
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+    }
+    .m-search > input::placeholder{
+        padding: 0 42px 0 12px;
+        font-size: 13.5px;
+        letter-spacing: -0.3px;
+        font-weight: 600;
+    }
+    .m-search > button{
+        width: 42px;
+        height: 40px;
+        background-size: 24px;
+        background-color: #a4ceff;
+        border-radius: 5px;
+    }
+    .m-search > button > img{
+        width: 24px;
+        height: 24px;
+    }
+    .m-direct{
+        padding: 28px 0 11px 0;
+        background-color: #e3e3e3;    
+    }
+    .m-direct > ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .d-onair > a{
+        margin-right: 70px;
+        line-height: 37px;
+    }
+    .d-onair > a > span{
+        font-size: 18px;
+        letter-spacing: 1px;
+        width: 80px;
+        height: 37px;
+        line-height: 25.5px;
+        color: #aaaaaa;
+        border-radius: 3px;
+        background: #3d3d3d;
+        padding: 0 20px 3px;
+    }
+    .d-bookmark > a > img{
+        width: 80px;
+        height: 37px;
+    }
+    .login-w > .login{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .login-w > .login > img{
+        width: 17px;
+        height: 17px;
+        margin-right: 7px;
+    }
+    .login-w > .login .tit{
+        letter-spacing: -1px;
+    }
+    .menu-list-wrapper{
+        padding-top: 30px;
+    }
+    .menu-list-wrapper > .list_w{
+        padding: 0 18px;
+        margin-bottom: 16px;
+    }
+    .menu-list-wrapper > .list_w > h2{
+        display: inline-block;
+        padding: 5px 8px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #fff;
+        background: #000041;
+        border-radius: 5px;
+        font-weight: 500;
+    }
+    .list_w > .m_lnb{
+        overflow: hidden;
+        padding-left: 10px;
+    }
+    .list_w > .m_lnb > li{
+        float: left;
+        width: 50%;
+        margin-bottom: 16px;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: -1px;
+    }
+
     .category-list{
         justify-content: center;
     }
@@ -3337,6 +3489,7 @@ nav{
         box-sizing: border-box;
     }
     .m-gnb{
+        position: relative;
         width: 100%;
         height: 55px;
         line-height: 55px;
@@ -3361,6 +3514,25 @@ nav{
         background: #e3e3e3;
         padding: 6px 13px;
         box-sizing: border-box;
+    }
+    .login{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 19px;
+    }
+    .login > img{
+        width: 17px;
+        margin-right: 7px;
+    }
+    .menu-list-wrapper{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 247px;
+        left: 0;
+        background-color: #fff;
+        z-index: 100;
     }
     .category-list{
         justify-content: center;

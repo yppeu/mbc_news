@@ -29,7 +29,8 @@
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header classs="scroll">
+      <!-- 기존 PC header -->
       <div class="nav-title-box">
         <div class="container-wrap">
           <h1 class="pc-gnb">
@@ -57,9 +58,10 @@
             </ul>
           </div>
       </div>
-    </div>
+      </div>
+      <!-- 기존 M 메뉴 햄버거 gnb -->
       <div class="m-gnb">
-        <button type="button" class="btn-gnb" title="전체 메뉴 펼치기">
+        <button type="button" class="btn-gnb">
           <a href="#" class="m-ham"><img src="./img/btn_gnb.png" alt="모바일 메뉴" /></a>
         </button>
         <h1 class="logo">
@@ -67,40 +69,110 @@
         </h1>
         <a href="#" class="report"><img src="./img/btn_report.png" alt="MBC 제보"/></a>
       </div>
-      <!-- 햄버거 메뉴 펼치기 -->
-      <div class="fullscreen-menu">
-        <!-- 햄버거 메뉴 닫기 -->
-        <button type="button" class="btn-close" title="전체 메뉴 닫기">
-          <div class="close-btn">
-            <a href="#">X</a>
-          </div>
-          <!-- <span class="line"></span>
-          <span class="line center"></span>
-          <span class="line"></span> -->
-        </button>
-        <ul class="menu-wrap">
-          <li><a href="#">홈</a></li>
-          <li><a href="#">뉴스데스크</a></li>
-          <li><a href="#">엠빅뉴스</a></li>
-          <li><a href="#">14F</a></li>
-          <li><a href="#">심층</a></li>
-          <li><a href="#">정치</a></li>
-          <li><a href="#">사회</a></li>
-          <li class="international"><a href="#">국제</a></li>
-          <li class="economy"><a href="#">경제</a></li>
-          <li class="sports"><a href="#">스포츠</a></li>
-          <li class="enter"><a href="#">iMBC 연예</a></li>
-          <li class="category-more-box">
-            <a href="#"
-              >더보기<img src="./img/arr.png" alt="화살표 아이콘 이미지" />
+      <!-- 모바일 햄버거 메뉴 펼치기 -->
+      <div class="fullscreen-menu on">
+        <!-- 펼친 gnb -->
+        <div class="m-ham-gnb">
+          <button type="button" class="btn-gnb-ham" title="전체 메뉴 펼치기">
+            <a href="#" class="m-ham-close"><img src="./img/btn_gnb_close.png" alt="모바일 메뉴" /></a>
+          </button>
+          <h1 class="logo">
+            <a href="#"><img src="./img/logo_mbcnews.png" alt="MBC 뉴스 로고 이미지"/></a>
+          </h1>
+          <a href="#" class="report"><img src="./img/btn_report.png" alt="MBC 제보"/></a>
+        </div>
+        <!-- 펼친 gnb 햄버거 로그인 박스 -->
+        <div class="m-menu-top">
+          <div class="login-w">
+            <a href="#" class="login">
+              <img src="./img/icon_login.png" alt="로그인 아이콘">
+              <strong class="tit">로그인 · 회원가입</strong>
             </a>
+          </div>
+          <div class="m-search">
+            <input type="text" title="" id="m-search_box" class="m-search_box" placeholder="검색어를 입력하세요">
+            <button type="button" class="submit-search"><img src="./img/btn_search.png" alt="검색 아이콘"></button>
+          </div>
+          <div class="m-direct">
+            <ul>
+              <li class="d-onair"><a href="#"><span class="live">LIVE</span></a></li>
+              <li class="d-bookmark"><a href="#"><img src="./img/gnb_mypick.png" alt="My pick 아이콘"></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 펼친 gnb 햄버거 메뉴 리스트-->
+        <ul class="menu-list-wrapper">
+          <li class="list_w">
+            <h2>다시보기</h2>
+            <ul class="m_lnb">
+              <li><a href="#">뉴스데스크</a></li>
+              <li><a href="#">뉴스투데이</a></li>
+              <li><a href="#">뉴스외전</a></li>
+              <li><a href="#">뉴스특보</a></li>
+              <li><a href="#">930MBC뉴스</a></li>
+              <li><a href="#">12MBC뉴스</a></li>
+              <li><a href="#">5MBC뉴스</a></li>
+              <li><a href="#">라디오뉴스</a></li>
+              <li><a href="#">스트레이트</a></li>
+              <li><a href="#">통일전망대</a></li>
+            </ul>
           </li>
-          <li class="hashtag">
-            <a href="#">#MBC뉴스</a>
+          <li class="list_w">
+            <h2>분야별 뉴스</h2>
+            <ul class="m_lnb">
+              <li><a href="#">정치</a></li>
+              <li><a href="#">사회</a></li>
+              <li><a href="#">국제</a></li>
+              <li><a href="#">경제</a></li>
+              <li><a href="#">문화</a></li>
+              <li><a href="#">네트워크</a></li>
+              <li><a href="#">스포츠</a></li>
+              <li><a href="#">iMBC 연예</a></li>
+              <li><a href="#">탐사보도</a></li>
+            </ul>
+          </li>
+          <li class="list_w">
+            <h2>취재플러스</h2>
+            <ul class="m_lnb">
+              <li><a href="#">심층</a></li>
+              <li><a href="#">알고보니</a></li>
+              <li><a href="#">World Now</a></li>
+              <li><a href="#">외통방통</a></li>
+              <li><a href="#">탐정M</a></li>
+              <li><a href="#">친절한 기자들</a></li>
+              <li><a href="#">기후환경리포트</a></li>
+              <li><a href="#">서초동M본부</a></li>
+              <li><a href="#">현장36.5</a></li>
+              <li><a href="#">국회M부스</a></li>
+              <li><a href="#">M피소드</a></li>
+              <li><a href="#">맥스MLB</a></li>
+            </ul>
+          </li>
+          <li class="list_w">
+            <h2>엠빅 X 14F</h2>
+            <ul class="m_lnb">
+              <li><a href="#">엠빅뉴스</a></li>
+              <li><a href="#">14F</a></li>
+            </ul>
+          </li>
+          <li class="list_w">
+            <h2>바로가기</h2>
+            <ul class="m_lnb">
+              <li><a href="/more/report/">제보</a></li>
+              <li><a href="/more/search/">검색</a></li>
+              <li><a href="/more/bookmark/">MY PICK</a></li>
+              <li><a href="/more/lastprogram/">지난 프로그램</a></li>
+              <li><a href="/more/board/">게시판</a></li>
+              <li><a href="/more/termofuse/">이용약관</a></li>
+              <li><a href="/more/onair/">LIVE</a></li>
+              <li><a href="/more/app/">APP 소개</a></li>
+              <li><a href="/more/login/out.html">계정관리</a></li>
+            </ul>
           </li>
         </ul>
       </div>
-      <nav>
+      <!-- 기존 PC 메뉴 -->
+      <nav calss="pc-nav">
         <div class="category-wrap">
           <ul class="category-list">
             <li><a href="#">홈</a></li>
@@ -136,6 +208,7 @@
           </a>
         </div>
       </nav>
+      <!-- 기존 M 햄버거 메뉴 -->
       <nav class="m-nav">
         <div class="category-wrap">
           <ul class="category-list">
