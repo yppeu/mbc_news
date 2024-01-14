@@ -3886,7 +3886,7 @@ nav{
     .enter-title-box > h2,
     .hot-news-title-box > h2{
         width: 50%;
-        padding: 23px 20px 10px;
+        padding: 0 20px 10px;
     }
     .news-rank-content-box{
         width: 90%;
@@ -4157,7 +4157,13 @@ nav{
         justify-content: center;
     }
     .hot-news-dable-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         margin-right: 30px;
+    }
+    .hot-news-dable-box > span{
+        font-size: 10px;
     }
     .hot-news-card-box{
         display: none;
