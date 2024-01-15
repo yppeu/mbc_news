@@ -3213,7 +3213,7 @@ nav{
 
     }
     .f_sns{
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
     .f_sns > ul{
         display: flex;
@@ -4225,7 +4225,7 @@ nav{
 
     }
     .f_sns{
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
     }
     .f_sns > ul{
         display: flex;
@@ -4233,11 +4233,14 @@ nav{
         justify-content: center;
         align-items: center;
     }
+    .f_sns > ul > li > a{
+        width: 50%;
+    }
     .f_sns > ul > li > a > img{
-        max-width: 100%;
+        max-width: 60%;
     }
     .f_sns > ul > li:not(:last-child){
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
     .m-f-nav{
         display: block;
