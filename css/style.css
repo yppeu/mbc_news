@@ -3510,7 +3510,7 @@ nav{
         width: 144px;
     }
     .report > img{
-        width: 38px;
+        width: 39px;
     }
     .m-nav{
         display: block;
@@ -3546,7 +3546,7 @@ nav{
         justify-content: space-between;
         align-items: center;
         background: #000041;
-        padding: 0 35px 0 40px;
+        padding: 0 27px 0 30px;
         box-sizing: border-box;
         overflow: hidden;
     }
