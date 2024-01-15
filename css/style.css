@@ -2518,6 +2518,7 @@ nav{
         justify-content: space-between;
         align-items: center;
         box-sizing: border-box;
+        padding: 0 30px;
     }
     .logo > a > img{
         width: 144px;
@@ -3059,6 +3060,7 @@ nav{
     .enter-content-wrap{
         flex-direction: column;
     }
+    
     .news-rank-card-left-list > a > img{
         width: 100%;
         height: 100%;
@@ -3521,8 +3523,8 @@ nav{
     펼쳐진 M 햄버거 메뉴
     ---------------------------------------------*/
     .btn-gnb-ham > a > img{
-        width: 18px;
-        height: 18px;
+        width: 20px;
+        height: 20px;
     }
     .fullscreen-menu{
         display: none;
@@ -3544,7 +3546,7 @@ nav{
         justify-content: space-between;
         align-items: center;
         background: #000041;
-        padding: 0 30px;
+        padding: 0 35px 0 40px;
         box-sizing: border-box;
         overflow: hidden;
     }
@@ -4079,6 +4081,7 @@ nav{
     }
     .sports-title-box{
         padding: 0;
+        padding-top: 20px;
     }
     .sports-content-vod-box > a > img,
     .sports-content-left-box > p,
